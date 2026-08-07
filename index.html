@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>Ivy's Hidden Journey</title>
+<meta name="description" content="A cozy hidden-object journey, made with love for Ivy.">
+<meta name="theme-color" content="#7c6ce0">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Ivy's Journey">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app" aria-live="polite"></div>
+<script src="scenes/01-japan.js"></script>
+<script src="scenes/02-taiwan.js"></script>
+<script src="scenes/03-singapore.js"></script>
+<script src="scenes/04-spain.js"></script>
+<script src="scenes/05-italy.js"></script>
+<script src="scenes/06-switzerland.js"></script>
+<script src="scenes/07-france.js"></script>
+<script src="scenes/08-uk.js"></script>
+<script src="js/game.js"></script>
+<script>
+if ('serviceWorker' in navigator && location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register('sw.js').catch(function () {});
+  });
+}
+</script>
+</body>
+</html>
