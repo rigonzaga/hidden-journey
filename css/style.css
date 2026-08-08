@@ -342,6 +342,24 @@ button {
   font-size: 0.95rem;
 }
 
+.scene-header .lives {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  vertical-align: middle;
+}
+
+.scene-screen.shake { animation: stageShake 0.3s ease; }
+
+@keyframes stageShake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-6px); }
+  75% { transform: translateX(6px); }
+}
+
+.big-stamp.broken { border-color: #d66; background: #fdeaea; }
+
 .scene-header .found-counter {
   display: inline-block;
   margin-left: 6px;

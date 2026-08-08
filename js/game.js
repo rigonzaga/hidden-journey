@@ -22,6 +22,23 @@
   var sceneEnteredAt = 0;    // for the run timer
   var combo = 0;
   var lastFindAt = 0;
+  var mistakes = 0;          // wrong taps this scene run
+  var MAX_MISTAKES = 3;
+
+  // Drop saved ids that no longer exist in a scene (object lists can shrink
+  // between versions) so counters and completion stay truthful.
+  (function pruneState() {
+    var changed = false;
+    scenes.forEach(function (s) {
+      var list = state.found[s.id];
+      if (!Array.isArray(list)) return;
+      var valid = {};
+      s.objects.forEach(function (o) { valid[o.id] = true; });
+      var pruned = list.filter(function (id) { return valid[id]; });
+      if (pruned.length !== list.length) { state.found[s.id] = pruned; changed = true; }
+    });
+    if (changed) saveState();
+  })();
 
   /* ---------- State ---------- */
 
@@ -119,6 +136,8 @@
 
   var Sound = (function () {
     var ctx = null;
+    // iOS: without this, the ring/silent switch mutes all web audio (iOS 16.4+).
+    try { if (navigator.audioSession) navigator.audioSession.type = 'playback'; } catch (e) { /* older iOS */ }
     function ready() {
       if (!state.audio) return null;
       try {
@@ -127,6 +146,9 @@
         return ctx;
       } catch (e) { return null; }
     }
+    // Unlock/resume at every opportunity — iOS suspends aggressively.
+    document.addEventListener('pointerdown', function () { ready(); }, true);
+    document.addEventListener('visibilitychange', function () { if (!document.hidden) ready(); });
     function note(freq, when, dur, type, peak) {
       var c = ready();
       if (!c) return;
@@ -178,8 +200,8 @@
       find: function () {
         var f = BALLAD[balladStep % BALLAD.length];
         balladStep++;
-        piano(f, 0, 0.2);
-        piano(f * 2, 0.01, 0.05, 0.9);
+        piano(f, 0, 0.3);
+        piano(f * 2, 0.01, 0.08, 0.9);
       },
       purple: function () {
         piano(440.00, 0, 0.18);
@@ -187,7 +209,8 @@
         piano(880.00, 0.24, 0.14, 1.8);
         note(1567.98, 0.3, 0.6, 'sine', 0.05);
       },
-      miss: function () { note(150, 0, 0.1, 'sine', 0.05); },
+      miss: function () { note(150, 0, 0.14, 'sine', 0.1); note(110, 0.02, 0.16, 'sine', 0.07); },
+      fail: function () { [329.63, 246.94, 196.00].forEach(function (f, i) { piano(f, i * 0.16, 0.2, 1.2); }); },
       hint: function () { piano(659.25, 0, 0.1, 0.7); piano(880, 0.12, 0.09, 0.7); },
       stamp: function () {
         [261.63, 329.63, 392.00, 523.25, 659.25].forEach(function (f, i) { piano(f, i * 0.07, 0.15, 1.8); });
@@ -327,12 +350,13 @@
     hintReadyAt = 0;
     combo = 0;
     lastFindAt = 0;
+    mistakes = 0;
 
     app.innerHTML = '<div class="scene-screen screen-enter">' +
       '<div class="scene-header">' +
       '<button class="back-btn" aria-label="Back">‹</button>' +
       '<div class="scene-name">' + scene.flag + ' ' + esc(scene.title) +
-      ' <span class="found-counter"></span></div>' +
+      ' <span class="found-counter"></span> <span class="lives"></span></div>' +
       '<button class="hint-btn">Hint 💡</button>' +
       '</div>' +
       '<div class="svg-stage"></div>' +
@@ -370,9 +394,9 @@
         onFound(scene, objId, svg.querySelector('g[data-obj="' + objId + '"]'), ev);
         return;
       }
-      Sound.miss();
-      puffAt(ev.clientX, ev.clientY);
+      onMiss(scene, ev);
     });
+    updateLives();
 
     app.querySelector('.back-btn').addEventListener('click', renderHome);
     app.querySelector('.hint-btn').addEventListener('click', function () {
@@ -516,6 +540,57 @@
     } else {
       setTimeout(renderTray, 900);
     }
+  }
+
+  function updateLives() {
+    var el = app.querySelector('.lives');
+    if (!el) return;
+    var left = MAX_MISTAKES - mistakes;
+    el.textContent = '❤️'.repeat(Math.max(0, left)) + '🖤'.repeat(Math.min(MAX_MISTAKES, mistakes));
+  }
+
+  function onMiss(scene, ev) {
+    mistakes++;
+    Sound.miss();
+    puffAt(ev.clientX, ev.clientY);
+    updateLives();
+    var screen = app.querySelector('.scene-screen');
+    if (screen) {
+      screen.classList.remove('shake');
+      void screen.offsetWidth;
+      screen.classList.add('shake');
+    }
+    if (mistakes >= MAX_MISTAKES) {
+      Sound.fail();
+      setTimeout(function () { showFail(scene); }, 450);
+    }
+  }
+
+  function showFail(scene) {
+    var overlay = document.createElement('div');
+    overlay.className = 'overlay';
+    overlay.innerHTML = '<div class="stamp-card">' +
+      '<div class="big-stamp broken">💔</div>' +
+      '<h2>Out of chances!</h2>' +
+      '<div class="caption">Three wrong taps — this journey starts over. You’ve got this 💜</div>' +
+      '<div class="btn-row">' +
+      '<button class="btn-primary" data-go="retry">Try again</button>' +
+      '<button class="btn-ghost" data-go="home">Back to my passport</button>' +
+      '</div></div>';
+    document.body.appendChild(overlay);
+    overlay.addEventListener('click', function (e) {
+      var go = e.target.getAttribute && e.target.getAttribute('data-go');
+      if (!go) return;
+      // the run is forfeit either way
+      state.found[scene.id] = [];
+      state.hints[scene.id] = 0;
+      state.times[scene.id] = 0;
+      sceneEnteredAt = 0;
+      saveState();
+      overlay.remove();
+      if (go === 'retry') renderScene(scene.id);
+      else renderHome();
+    });
   }
 
   function completeScene(scene) {
