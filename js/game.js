@@ -368,6 +368,7 @@
     var svg = stage.querySelector('svg');
     if (!svg) { renderHome(); return; }
     svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+    clipToArtboard(svg);
     var zoom = enableZoom(stage, svg);
     showZoomToast(stage);
 
@@ -402,6 +403,32 @@
     app.querySelector('.hint-btn').addEventListener('click', function () {
       useHint(scene, svg, this);
     });
+  }
+
+  // Scenes paint slightly past the 800x1200 artboard for full coverage; clip
+  // that overdraw so nothing bleeds into the letterbox gutters.
+  function clipToArtboard(svg) {
+    var defs = svg.querySelector('defs');
+    if (!defs) {
+      defs = document.createElementNS(SVG_NS, 'defs');
+      svg.insertBefore(defs, svg.firstChild);
+    }
+    var clip = document.createElementNS(SVG_NS, 'clipPath');
+    clip.setAttribute('id', 'engine-stage-clip');
+    var r = document.createElementNS(SVG_NS, 'rect');
+    r.setAttribute('x', 0); r.setAttribute('y', 0);
+    r.setAttribute('width', 800); r.setAttribute('height', 1200);
+    clip.appendChild(r);
+    defs.appendChild(clip);
+    var wrapper = document.createElementNS(SVG_NS, 'g');
+    wrapper.setAttribute('clip-path', 'url(#engine-stage-clip)');
+    var kids = [];
+    for (var i = 0; i < svg.childNodes.length; i++) {
+      var n = svg.childNodes[i];
+      if (n.nodeType === 1 && n !== defs) kids.push(n);
+    }
+    kids.forEach(function (k) { wrapper.appendChild(k); });
+    svg.appendChild(wrapper);
   }
 
   // With 100 overlapping hit-rects, the topmost rect under a tap is often the

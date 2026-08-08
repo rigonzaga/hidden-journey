@@ -1,6 +1,6 @@
 /* Ivy's Hidden Journey — offline cache */
 /* IMPORTANT: bump this version on EVERY deploy, or installed users keep the old build forever */
-var CACHE = 'ivy-journey-v4';
+var CACHE = 'ivy-journey-v5';
 var ASSETS = [
   './',
   'index.html',
