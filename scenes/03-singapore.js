@@ -519,14 +519,12 @@ window.SCENES.push({
 <path d="M489,312 L549,308" stroke="#c8fbf5" stroke-width="2" opacity="0.45"/>
 <circle cx="438" cy="310" r="3" fill="#ddfffb"/>
 <circle cx="540" cy="310" r="3" fill="#ddfffb"/>
-
 <circle cx="489" cy="451" r="34" fill="url(#singapore-glowp)" opacity="0.55"/>
 <g data-obj="purple-heart">
 <path d="M489,472 C473,458 467,450 467,441 C467,434 473,430 479,430 C484,430 488,433 489,437 C490,433 494,430 499,430 C505,430 511,434 511,441 C511,450 505,458 489,472 Z" fill="url(#singapore-sph-purple)" stroke="#c79bff" stroke-width="2"/>
 <path d="M489,472 C479,464 472,456 469,448 C475,444 483,442 489,442 Z" fill="#5c2b96" opacity="0.55"/>
 <path d="M477,436 C473,437 471,441 472,446" fill="none" stroke="#f0dcff" stroke-width="2.4" opacity="0.85"/>
 </g>
-
 <path d="M446,468 Q489,458 534,470" fill="none" stroke="#6b5490" stroke-width="5" opacity="0.95"/>
 <path d="M446,464 Q489,454 534,466" fill="none" stroke="#9a80c2" stroke-width="1.6" opacity="0.8"/>
 <path d="M470,486 Q464,470 471,456" fill="none" stroke="#2f6647" stroke-width="3" stroke-linecap="round"/>
@@ -554,118 +552,185 @@ window.SCENES.push({
 <rect x="277" y="437" width="13" height="3" rx="1.5" fill="#f9ecd6" opacity="0.75"/>
 <path d="M272,444 L287,451 L302,444 Z" fill="#8f2b32"/>
 </g>
+<path d="M700,290 Q662,458 600,628" fill="none" stroke="#f4e2c6" stroke-width="1.4" opacity="0.5"/>
 
 <rect x="0" y="546" width="800" height="126" fill="url(#singapore-water)"/>
 <rect x="0" y="546" width="800" height="6" fill="#d3b3ee" opacity="0.5"/>
-<rect x="210" y="552" width="14" height="74" rx="6" fill="#ff9ad8" opacity="0.36"/>
-<rect x="482" y="552" width="14" height="78" rx="6" fill="#8ff2ea" opacity="0.36"/>
-<rect x="610" y="552" width="10" height="50" rx="5" fill="#ff9ad8" opacity="0.26"/>
-<rect x="88" y="552" width="9" height="46" rx="4" fill="#8ff2ea" opacity="0.26"/>
-<rect x="650" y="552" width="7" height="58" rx="3" fill="#ffcf8a" opacity="0.3"/>
-<ellipse cx="140" cy="600" rx="70" ry="4" fill="url(#singapore-refl)"/>
-<ellipse cx="420" cy="622" rx="96" ry="5" fill="url(#singapore-refl)"/>
-<ellipse cx="640" cy="592" rx="80" ry="4" fill="url(#singapore-refl)"/>
-<ellipse cx="720" cy="658" rx="30" ry="8" fill="#1e4a33"/>
-<ellipse cx="718" cy="654" rx="26" ry="6" fill="url(#singapore-bush)"/>
-<g data-obj="lily-pad">
-<ellipse cx="70" cy="642" rx="34" ry="9" fill="#1e4a33"/>
-<ellipse cx="70" cy="637" rx="31" ry="7.4" fill="url(#singapore-bush)"/>
-<path d="M70,637 L44,635" stroke="#1e4a33" stroke-width="2"/>
-<path d="M70,637 L94,639" stroke="#1e4a33" stroke-width="2"/>
-<circle cx="88" cy="631" r="6" fill="url(#singapore-canopy-a)"/>
-<circle cx="87" cy="630" r="2.6" fill="#ffe0f4"/>
-</g>
-<ellipse cx="328" cy="636" rx="38" ry="6" fill="url(#singapore-shadow-c)"/>
-<g data-obj="river-boat">
-<path d="M296,618 L360,618 L352,632 L304,632 Z" fill="#3b2c4f"/>
-<path d="M328,618 L360,618 L352,632 L328,632 Z" fill="#241a38" opacity="0.8"/>
-<path d="M296,618 L360,618 L360,621 L296,621 Z" fill="#8a72b4" opacity="0.55"/>
-<rect x="318" y="604" width="20" height="14" rx="3" fill="#5c4880"/>
-<rect x="318" y="604" width="20" height="4" rx="2" fill="#8a72b4"/>
-<circle cx="322" cy="612" r="2.2" fill="#ffd9a0"/>
-<circle cx="334" cy="612" r="2.2" fill="#ffd9a0"/>
-<rect x="304" y="612" width="8" height="6" rx="2" fill="#5c4880"/>
-</g>
-<path d="M292,638 Q328,644 364,638" fill="none" stroke="#d3b3ee" stroke-width="2" opacity="0.35"/>
-<ellipse cx="160" cy="629" rx="24" ry="5" fill="url(#singapore-shadow-c)"/>
-<g data-obj="water-buoy">
-<path d="M146,606 L174,606 L168,626 L152,626 Z" fill="url(#singapore-red)"/>
-<path d="M160,606 L168,626 L161,626 Z" fill="#8f2b32" opacity="0.75"/>
-<rect x="142" y="600" width="36" height="8" rx="3" fill="url(#singapore-cream)"/>
-<rect x="154" y="586" width="12" height="15" rx="3" fill="url(#singapore-metal)"/>
-<circle cx="160" cy="583" r="5" fill="#ffcf6a"/>
-<circle cx="158" cy="581" r="2" fill="#fff2c2"/>
-</g>
+<rect x="210" y="552" width="14" height="74" rx="6" fill="#ff9ad8" opacity="0.34"/>
+<rect x="482" y="552" width="14" height="78" rx="6" fill="#8ff2ea" opacity="0.34"/>
+<rect x="610" y="552" width="10" height="50" rx="5" fill="#ff9ad8" opacity="0.24"/>
+<rect x="88" y="552" width="9" height="46" rx="4" fill="#8ff2ea" opacity="0.24"/>
+<rect x="650" y="552" width="7" height="58" rx="3" fill="#ffcf8a" opacity="0.28"/>
+<ellipse cx="140" cy="596" rx="70" ry="4" fill="url(#singapore-refl)"/>
+<ellipse cx="470" cy="620" rx="96" ry="5" fill="url(#singapore-refl)"/>
+<ellipse cx="660" cy="586" rx="80" ry="4" fill="url(#singapore-refl)"/>
+
+<ellipse cx="584" cy="614" rx="52" ry="11" fill="none" stroke="#e8caff" stroke-width="2" opacity="0.3"/>
+<ellipse cx="584" cy="614" rx="34" ry="7" fill="none" stroke="#e8caff" stroke-width="1.6" opacity="0.22"/>
+<ellipse cx="584" cy="616" rx="40" ry="8" fill="#1c1338" opacity="0.28"/>
 <g data-obj="koi-fish">
-<path d="M400,650 Q414,634 434,638 Q448,642 450,650 Q448,658 434,662 Q414,666 400,650 Z" fill="url(#singapore-sph-red)"/>
-<path d="M400,650 Q414,634 434,638 Q440,644 438,650 Q432,656 420,656 Q408,656 400,650 Z" fill="#f9a892" opacity="0.75"/>
-<path d="M450,650 L464,640 L460,650 L464,660 Z" fill="#b0342c"/>
-<circle cx="410" cy="646" r="2.4" fill="#2e2244"/>
-<path d="M420,638 Q426,644 424,650" fill="none" stroke="#fffaf0" stroke-width="2" opacity="0.7"/>
-<path d="M432,660 Q436,668 430,672" fill="none" stroke="#c9403a" stroke-width="3" stroke-linecap="round"/>
+<path d="M554,608 Q568,592 588,596 Q602,600 604,608 Q602,616 588,620 Q568,624 554,608 Z" fill="url(#singapore-sph-red)"/>
+<path d="M554,608 Q568,592 588,596 Q594,602 592,608 Q586,614 574,614 Q562,614 554,608 Z" fill="#f9a892" opacity="0.75"/>
+<path d="M604,608 L618,598 L614,608 L618,618 Z" fill="#b0342c"/>
+<circle cx="564" cy="604" r="2.4" fill="#2e2244"/>
+<path d="M574,596 Q580,602 578,608" fill="none" stroke="#fffaf0" stroke-width="2" opacity="0.7"/>
+<path d="M586,618 Q590,626 584,630" fill="none" stroke="#c9403a" stroke-width="3" stroke-linecap="round"/>
 </g>
+<ellipse cx="552" cy="626" rx="30" ry="8" fill="#1e4a33"/>
+<ellipse cx="551" cy="622" rx="26" ry="6" fill="url(#singapore-bush)"/>
+<ellipse cx="666" cy="654" rx="32" ry="8.5" fill="#1e4a33"/>
+<ellipse cx="665" cy="650" rx="28" ry="6.4" fill="url(#singapore-bush)"/>
+<g data-obj="lily-pad">
+<ellipse cx="600" cy="642" rx="34" ry="9" fill="#1e4a33"/>
+<ellipse cx="600" cy="637" rx="31" ry="7.4" fill="url(#singapore-bush)"/>
+<path d="M600,637 L574,635" stroke="#1e4a33" stroke-width="2"/>
+<path d="M600,637 L624,639" stroke="#1e4a33" stroke-width="2"/>
+<circle cx="618" cy="631" r="6" fill="url(#singapore-canopy-a)"/>
+<circle cx="617" cy="630" r="2.6" fill="#ffe0f4"/>
+</g>
+<path d="M706,666 Q702,636 696,620" fill="none" stroke="#245039" stroke-width="4" stroke-linecap="round"/>
+<path d="M718,666 Q720,638 724,624" fill="none" stroke="#2d6142" stroke-width="4" stroke-linecap="round"/>
+<path d="M732,666 Q736,642 744,630" fill="none" stroke="#245039" stroke-width="4" stroke-linecap="round"/>
+<path d="M748,666 Q748,644 746,632" fill="none" stroke="#2d6142" stroke-width="4" stroke-linecap="round"/>
+
+<ellipse cx="273" cy="668" rx="78" ry="12" fill="#1c1338" opacity="0.5"/>
+<path d="M232,612 L316,612 L338,668 L208,668 Z" fill="#8a5a33"/>
+<path d="M232,612 L316,612 L318,617 L230,617 Z" fill="#e0a86a"/>
+<path d="M230,626 L320,626" stroke="#5e3a1e" stroke-width="2.4" opacity="0.85"/>
+<path d="M225,642 L325,642" stroke="#5e3a1e" stroke-width="2.4" opacity="0.85"/>
+<path d="M219,658 L331,658" stroke="#5e3a1e" stroke-width="2.4" opacity="0.85"/>
+<path d="M232,612 L208,668 L216,668 L238,612 Z" fill="#c08a4e" opacity="0.45"/>
+<rect x="226" y="596" width="9" height="22" rx="3" fill="url(#singapore-wood)"/>
+<rect x="313" y="596" width="9" height="22" rx="3" fill="url(#singapore-wood)"/>
+<ellipse cx="250" cy="646" rx="26" ry="6" fill="#4e2f16" opacity="0.5"/>
+<g data-obj="mooring-post">
+<rect x="240" y="604" width="20" height="44" rx="4" fill="url(#singapore-wood)"/>
+<ellipse cx="250" cy="603" rx="12" ry="5" fill="#c08a4e"/>
+<ellipse cx="248" cy="602" rx="7" ry="2.6" fill="#e6b57e" opacity="0.8"/>
+<path d="M238,618 Q250,613 262,618 Q250,624 238,618 Z" fill="#d8d0c0"/>
+<path d="M262,620 Q276,626 272,638 Q266,644 258,640" fill="none" stroke="#c9c0b0" stroke-width="3.4"/>
+<path d="M238,626 Q226,632 230,642" fill="none" stroke="#a8a08c" stroke-width="3"/>
+</g>
+<path d="M186,606 Q202,624 216,650" fill="none" stroke="#a8a08c" stroke-width="2" opacity="0.8"/>
+<ellipse cx="168" cy="622" rx="24" ry="5" fill="#241a38" opacity="0.4"/>
+<g data-obj="water-buoy">
+<path d="M154,600 L182,600 L176,620 L160,620 Z" fill="url(#singapore-red)"/>
+<path d="M168,600 L176,620 L169,620 Z" fill="#8f2b32" opacity="0.75"/>
+<rect x="150" y="594" width="36" height="8" rx="3" fill="url(#singapore-cream)"/>
+<rect x="162" y="580" width="12" height="15" rx="3" fill="url(#singapore-metal)"/>
+<circle cx="168" cy="577" r="5" fill="#ffcf6a"/>
+<circle cx="166" cy="575" r="2" fill="#fff2c2"/>
+</g>
+<path d="M262,622 Q302,626 340,634" fill="none" stroke="#c9c0b0" stroke-width="2" opacity="0.85"/>
+<ellipse cx="368" cy="654" rx="38" ry="7" fill="#1c1338" opacity="0.5"/>
+<g data-obj="river-boat">
+<path d="M336,636 L400,636 L392,650 L344,650 Z" fill="url(#singapore-wood)"/>
+<path d="M370,636 L400,636 L392,650 L370,650 Z" fill="#5e3a1e" opacity="0.75"/>
+<path d="M336,636 L400,636 L400,640 L336,640 Z" fill="#f0c48c"/>
+<rect x="358" y="622" width="20" height="14" rx="3" fill="url(#singapore-teal)"/>
+<rect x="358" y="622" width="20" height="3.4" rx="1.7" fill="#b8fbf5"/>
+<circle cx="363" cy="630" r="2.4" fill="#ffe4b0"/>
+<circle cx="373" cy="630" r="2.4" fill="#ffe4b0"/>
+<rect x="344" y="628" width="9" height="8" rx="2" fill="#c9576f"/>
+<path d="M340,634 L336,626" stroke="#5e3a1e" stroke-width="2.4" stroke-linecap="round"/>
+</g>
+<path d="M334,656 Q368,662 402,656" fill="none" stroke="#e8caff" stroke-width="2" opacity="0.35"/>
+<ellipse cx="368" cy="660" rx="30" ry="4" fill="#e8b478" opacity="0.18"/>
 
 <rect x="0" y="662" width="800" height="58" fill="url(#singapore-deck)"/>
 <rect x="0" y="662" width="800" height="4" fill="#9a80c2" opacity="0.7"/>
 <rect x="0" y="700" width="800" height="6" fill="#2e2348" opacity="0.7"/>
-<rect x="0" y="628" width="800" height="6" rx="3" fill="#6b5490"/>
-<rect x="0" y="628" width="800" height="2" rx="1" fill="#a48cca" opacity="0.7"/>
-<rect x="0" y="646" width="800" height="4" rx="2" fill="#54406e"/>
+<rect x="0" y="674" width="800" height="3" fill="#63508c" opacity="0.5"/>
+<rect x="0" y="628" width="206" height="6" rx="3" fill="#6b5490"/>
+<rect x="340" y="628" width="460" height="6" rx="3" fill="#6b5490"/>
+<rect x="0" y="628" width="206" height="2" rx="1" fill="#a48cca" opacity="0.7"/>
+<rect x="340" y="628" width="460" height="2" rx="1" fill="#a48cca" opacity="0.7"/>
+<rect x="0" y="646" width="206" height="4" rx="2" fill="#54406e"/>
+<rect x="340" y="646" width="460" height="4" rx="2" fill="#54406e"/>
 <rect x="64" y="632" width="5" height="32" fill="#54406e"/>
-<rect x="204" y="632" width="5" height="32" fill="#54406e"/>
-<rect x="334" y="632" width="5" height="32" fill="#54406e"/>
+<rect x="152" y="632" width="5" height="32" fill="#54406e"/>
+<rect x="350" y="632" width="5" height="32" fill="#54406e"/>
 <rect x="470" y="632" width="5" height="32" fill="#54406e"/>
 <rect x="608" y="632" width="5" height="32" fill="#54406e"/>
 <rect x="762" y="632" width="5" height="32" fill="#54406e"/>
-<rect x="0" y="674" width="800" height="3" fill="#63508c" opacity="0.5"/>
-<ellipse cx="180" cy="680" rx="42" ry="9" fill="url(#singapore-shadow-c)"/>
-<rect x="152" y="644" width="56" height="20" rx="4" fill="url(#singapore-wood-v)"/>
-<rect x="152" y="640" width="56" height="6" rx="3" fill="#c08a4e"/>
-<rect x="158" y="664" width="5" height="14" fill="#5e3f20"/>
-<rect x="198" y="664" width="5" height="14" fill="#5e3f20"/>
-<ellipse cx="624" cy="682" rx="46" ry="10" fill="url(#singapore-shadow-c)"/>
+<ellipse cx="124" cy="690" rx="44" ry="10" fill="url(#singapore-shadow-c)"/>
+<ellipse cx="124" cy="690" rx="24" ry="5" fill="#1b1436" opacity="0.5"/>
+<rect x="96" y="656" width="56" height="20" rx="4" fill="url(#singapore-wood-v)"/>
+<rect x="96" y="652" width="56" height="6" rx="3" fill="#c08a4e"/>
+<rect x="98" y="630" width="6" height="28" fill="#5e3f20"/>
+<rect x="144" y="630" width="6" height="28" fill="#5e3f20"/>
+<rect x="98" y="632" width="52" height="6" rx="2" fill="url(#singapore-wood)"/>
+<rect x="98" y="642" width="52" height="6" rx="2" fill="url(#singapore-wood)"/>
+<rect x="102" y="676" width="5" height="14" fill="#5e3f20"/>
+<rect x="142" y="676" width="5" height="14" fill="#5e3f20"/>
+<rect x="592" y="626" width="10" height="10" rx="3" fill="url(#singapore-wood)"/>
+<circle cx="597" cy="631" r="2.6" fill="#5e3f20"/>
+<ellipse cx="480" cy="692" rx="46" ry="10" fill="url(#singapore-shadow-c)"/>
+<ellipse cx="480" cy="692" rx="26" ry="5" fill="#1b1436" opacity="0.5"/>
 <g data-obj="park-bench">
-<rect x="596" y="644" width="56" height="20" rx="4" fill="url(#singapore-wood-v)"/>
-<rect x="596" y="640" width="56" height="6" rx="3" fill="#c08a4e"/>
-<rect x="598" y="618" width="6" height="28" fill="#5e3f20"/>
-<rect x="644" y="618" width="6" height="28" fill="#5e3f20"/>
-<rect x="598" y="620" width="52" height="6" rx="2" fill="url(#singapore-wood)"/>
-<rect x="598" y="630" width="52" height="6" rx="2" fill="url(#singapore-wood)"/>
-<rect x="602" y="664" width="5" height="14" fill="#5e3f20"/>
-<rect x="642" y="664" width="5" height="14" fill="#5e3f20"/>
+<rect x="452" y="656" width="56" height="20" rx="4" fill="url(#singapore-wood-v)"/>
+<rect x="452" y="652" width="56" height="6" rx="3" fill="#c08a4e"/>
+<rect x="454" y="630" width="6" height="28" fill="#5e3f20"/>
+<rect x="500" y="630" width="6" height="28" fill="#5e3f20"/>
+<rect x="454" y="632" width="52" height="6" rx="2" fill="url(#singapore-wood)"/>
+<rect x="454" y="642" width="52" height="6" rx="2" fill="url(#singapore-wood)"/>
+<rect x="458" y="676" width="5" height="14" fill="#5e3f20"/>
+<rect x="498" y="676" width="5" height="14" fill="#5e3f20"/>
 </g>
-<ellipse cx="252" cy="694" rx="30" ry="8" fill="url(#singapore-shadow-c)"/>
-<g data-obj="mooring-post">
-<rect x="240" y="650" width="20" height="44" rx="4" fill="url(#singapore-wood)"/>
-<ellipse cx="250" cy="649" rx="12" ry="5" fill="#c08a4e"/>
-<ellipse cx="248" cy="648" rx="7" ry="2.6" fill="#e6b57e" opacity="0.8"/>
-<path d="M238,664 Q250,659 262,664 Q250,670 238,664 Z" fill="#d8d0c0"/>
-<path d="M262,666 Q276,672 272,684 Q266,690 258,686" fill="none" stroke="#c9c0b0" stroke-width="3.4"/>
-<path d="M238,672 Q226,678 230,688" fill="none" stroke="#a8a08c" stroke-width="3"/>
+<ellipse cx="437" cy="693" rx="18" ry="5" fill="url(#singapore-shadow-c)"/>
+<ellipse cx="437" cy="693" rx="9" ry="2.6" fill="#1b1436" opacity="0.5"/>
+<g data-obj="paper-umbrella">
+<rect x="430" y="622" width="5" height="14" rx="2" fill="#8a5a33"/>
+<path d="M430,640 L438,640 L434,628 Z" fill="#e8756c"/>
+<path d="M428,638 L440,638 L446,682 L434,684 Z" fill="url(#singapore-red)"/>
+<path d="M437,638 L446,682 L440,683 L432,638 Z" fill="#7d2a24" opacity="0.75"/>
+<path d="M428,638 L431,638 L436,683 L434,684 Z" fill="#ffb7a6" opacity="0.45"/>
+<path d="M431,652 L443,651" stroke="#f9ecd6" stroke-width="2" opacity="0.75"/>
+<path d="M433,668 L445,667" stroke="#f9ecd6" stroke-width="2" opacity="0.75"/>
+<path d="M435,682 L435,692" stroke="#8a5a33" stroke-width="5" stroke-linecap="round"/>
 </g>
-<ellipse cx="388" cy="692" rx="42" ry="9" fill="url(#singapore-shadow-c)"/>
+<ellipse cx="552" cy="691" rx="44" ry="9" fill="url(#singapore-shadow-c)"/>
+<ellipse cx="552" cy="691" rx="24" ry="4.4" fill="#1b1436" opacity="0.45"/>
 <g data-obj="bicycle">
-<circle cx="368" cy="676" r="13" fill="none" stroke="#2c2040" stroke-width="3.4"/>
-<circle cx="406" cy="676" r="13" fill="none" stroke="#2c2040" stroke-width="3.4"/>
-<path d="M368,676 L384,676 L394,656 L406,676" fill="none" stroke="#2ec7c0" stroke-width="3.4"/>
-<path d="M384,676 L394,656" stroke="#6fe3dc" stroke-width="2.4"/>
-<path d="M372,662 L386,654" stroke="#2ec7c0" stroke-width="2.6"/>
-<rect x="380" y="651" width="15" height="4" rx="2" fill="#3b2c4f"/>
-<path d="M368,658 L378,655" stroke="#3b2c4f" stroke-width="3" stroke-linecap="round"/>
-<circle cx="388" cy="676" r="3.4" fill="#ffcf6a"/>
+<circle cx="533" cy="677" r="13" fill="none" stroke="#2c2040" stroke-width="3.4"/>
+<circle cx="571" cy="677" r="13" fill="none" stroke="#2c2040" stroke-width="3.4"/>
+<path d="M533,677 L549,677 L559,657 L571,677" fill="none" stroke="#2ec7c0" stroke-width="3.4"/>
+<path d="M549,677 L559,657" stroke="#6fe3dc" stroke-width="2.4"/>
+<path d="M537,663 L551,655" stroke="#2ec7c0" stroke-width="2.6"/>
+<rect x="545" y="652" width="15" height="4" rx="2" fill="#3b2c4f"/>
+<path d="M533,659 L543,656" stroke="#3b2c4f" stroke-width="3" stroke-linecap="round"/>
+<circle cx="553" cy="677" r="3.4" fill="#ffcf6a"/>
 </g>
-<ellipse cx="728" cy="682" rx="30" ry="8" fill="url(#singapore-shadow-c)"/>
+<path d="M616,676 L700,676 L700,692 L616,692 Z" fill="#5e3a1e"/>
+<path d="M616,676 L700,676 L700,680 L616,680 Z" fill="#c08a4e" opacity="0.8"/>
+<ellipse cx="658" cy="692" rx="40" ry="9" fill="url(#singapore-shadow-c)"/>
+<ellipse cx="658" cy="692" rx="22" ry="4.4" fill="#1b1436" opacity="0.45"/>
+<g data-obj="potted-palm">
+<path d="M660,654 Q644,636 630,630" fill="none" stroke="#347049" stroke-width="6" stroke-linecap="round"/>
+<path d="M660,654 Q656,632 658,618" fill="none" stroke="#4a8f60" stroke-width="6" stroke-linecap="round"/>
+<path d="M660,654 Q676,634 690,626" fill="none" stroke="#2d6142" stroke-width="6" stroke-linecap="round"/>
+<path d="M660,654 Q678,648 690,652" fill="none" stroke="#245039" stroke-width="5" stroke-linecap="round"/>
+<path d="M640,660 L646,688 L674,688 L680,660 Z" fill="url(#singapore-wood)"/>
+<path d="M660,660 L660,688 L674,688 L680,660 Z" fill="#8a4d26" opacity="0.6"/>
+<rect x="636" y="653" width="48" height="9" rx="3" fill="#d98f5c"/>
+<rect x="636" y="653" width="48" height="3" rx="1.5" fill="#f0b284" opacity="0.8"/>
+</g>
+<ellipse cx="740" cy="692" rx="32" ry="8" fill="url(#singapore-shadow-c)"/>
+<ellipse cx="740" cy="692" rx="16" ry="3.6" fill="#1b1436" opacity="0.5"/>
 <g data-obj="signpost">
-<rect x="723" y="620" width="8" height="58" fill="url(#singapore-wood)"/>
-<path d="M700,624 L744,624 L744,638 L700,638 L692,631 Z" fill="url(#singapore-green)"/>
-<path d="M700,624 L744,624 L744,628 L700,628 Z" fill="#93e3a6" opacity="0.75"/>
-<path d="M730,644 L756,644 L764,651 L756,658 L730,658 Z" fill="url(#singapore-red)"/>
-<path d="M730,644 L756,644 L756,648 L730,648 Z" fill="#ffb7a6" opacity="0.7"/>
+<rect x="735" y="618" width="8" height="72" fill="url(#singapore-wood)"/>
+<path d="M712,622 L756,622 L756,636 L712,636 L704,629 Z" fill="url(#singapore-green)"/>
+<path d="M712,622 L756,622 L756,626 L712,626 Z" fill="#93e3a6" opacity="0.75"/>
+<path d="M742,642 L768,642 L776,649 L768,656 L742,656 Z" fill="url(#singapore-red)"/>
+<path d="M742,642 L768,642 L768,646 L742,646 Z" fill="#ffb7a6" opacity="0.7"/>
 </g>
 <path d="M0,700 L800,700 L800,1200 L0,1200 Z" fill="url(#singapore-ground)"/>
-<path d="M0,852 Q200,816 400,846 Q600,876 800,840 L800,904 Q600,940 400,910 Q200,880 0,918 Z" fill="url(#singapore-path)"/>
-<path d="M0,852 Q200,816 400,846 Q600,876 800,840 L800,850 Q600,886 400,856 Q200,826 0,862 Z" fill="#d6c39e" opacity="0.55"/>
-<path d="M0,898 Q200,862 400,892 Q600,922 800,886 L800,904 Q600,940 400,910 Q200,880 0,918 Z" fill="#5e5140" opacity="0.7"/>
+<path d="M0,852 Q200,816 400,846 Q600,876 800,840 L800,896 Q600,936 400,916 Q200,890 0,940 Z" fill="url(#singapore-path)"/>
+<path d="M0,852 Q200,816 400,846 Q600,876 800,840 L800,848 Q600,884 400,854 Q200,824 0,862 Z" fill="#dbc9a4" opacity="0.6"/>
+<path d="M0,918 Q200,872 400,900 Q600,924 800,882 L800,896 Q600,936 400,916 Q200,890 0,940 Z" fill="#54492f" opacity="0.55"/>
+<ellipse cx="150" cy="908" rx="40" ry="10" fill="#c9b68f" opacity="0.3"/>
+<ellipse cx="360" cy="888" rx="32" ry="8" fill="#c9b68f" opacity="0.26"/>
+<ellipse cx="600" cy="892" rx="26" ry="6.5" fill="#c9b68f" opacity="0.22"/>
 <ellipse cx="56" cy="744" rx="72" ry="30" fill="#1b4630"/>
 <ellipse cx="54" cy="736" rx="67" ry="25" fill="url(#singapore-bush)"/>
 <ellipse cx="256" cy="746" rx="60" ry="26" fill="#1b4630"/>
@@ -690,64 +755,105 @@ window.SCENES.push({
 <path d="M750,708 Q782,674 798,662" fill="none" stroke="#3f8256" stroke-width="7" stroke-linecap="round"/>
 <path d="M750,708 Q786,692 800,700" fill="none" stroke="#245039" stroke-width="7" stroke-linecap="round"/>
 <circle cx="750" cy="706" r="6" fill="#5e3f20"/>
-<path d="M198,820 Q186,790 172,776" fill="none" stroke="#347049" stroke-width="6" stroke-linecap="round"/>
-<path d="M198,820 Q198,786 194,766" fill="none" stroke="#4a8f60" stroke-width="6" stroke-linecap="round"/>
-<path d="M198,820 Q212,792 226,780" fill="none" stroke="#245039" stroke-width="6" stroke-linecap="round"/>
-<path d="M660,824 Q650,796 638,782" fill="none" stroke="#347049" stroke-width="6" stroke-linecap="round"/>
-<path d="M660,824 Q660,794 658,774" fill="none" stroke="#4a8f60" stroke-width="6" stroke-linecap="round"/>
-<path d="M660,824 Q674,798 688,786" fill="none" stroke="#245039" stroke-width="6" stroke-linecap="round"/>
+<path d="M334,826 Q324,798 312,784" fill="none" stroke="#347049" stroke-width="6" stroke-linecap="round"/>
+<path d="M334,826 Q334,796 332,776" fill="none" stroke="#4a8f60" stroke-width="6" stroke-linecap="round"/>
+<path d="M334,826 Q348,800 362,788" fill="none" stroke="#245039" stroke-width="6" stroke-linecap="round"/>
 
-<ellipse cx="354" cy="772" rx="30" ry="7" fill="url(#singapore-shadow)"/>
-<g data-obj="bird-house">
-<rect x="348" y="736" width="8" height="34" fill="url(#singapore-wood)"/>
-<rect x="332" y="716" width="40" height="26" rx="2" fill="url(#singapore-wood)"/>
-<path d="M328,716 L352,698 L376,716 Z" fill="#8a5a33"/>
-<path d="M352,698 L328,716 L340,716 Z" fill="#c08a4e" opacity="0.85"/>
-<circle cx="352" cy="726" r="7" fill="#3f2a18"/>
-<circle cx="350" cy="724" r="3" fill="#5e3f20" opacity="0.7"/>
-<rect x="349" y="732" width="6" height="11" rx="2" fill="#7d5029"/>
-<rect x="332" y="740" width="40" height="4" rx="2" fill="#c08a4e"/>
+<ellipse cx="156" cy="816" rx="88" ry="26" fill="#173d29"/>
+<ellipse cx="154" cy="810" rx="82" ry="21" fill="url(#singapore-bush)"/>
+<path d="M68,836 Q156,820 244,832 L244,846 Q156,834 68,850 Z" fill="#6d6552"/>
+<path d="M68,836 Q156,820 244,832 L244,838 Q156,826 68,842 Z" fill="#a89a7c"/>
+<path d="M112,830 Q108,806 100,792" fill="none" stroke="#4a8f60" stroke-width="6" stroke-linecap="round"/>
+<path d="M206,832 Q212,810 222,798" fill="none" stroke="#347049" stroke-width="6" stroke-linecap="round"/>
+<circle cx="100" cy="806" r="9" fill="url(#singapore-canopy-a)"/>
+<circle cx="98" cy="804" r="4" fill="#ffe0f4"/>
+<circle cx="90" cy="814" r="7" fill="#e87ab8"/>
+<circle cx="206" cy="808" r="9" fill="url(#singapore-sph-purple)"/>
+<circle cx="204" cy="806" r="4" fill="#e8c6f5"/>
+<circle cx="216" cy="818" r="7" fill="#9b5de5"/>
+<circle cx="120" cy="830" r="8" fill="url(#singapore-sph-purple)"/>
+<circle cx="118" cy="828" r="3.4" fill="#d9b4ff"/>
+<circle cx="186" cy="828" r="8" fill="url(#singapore-pink)"/>
+<circle cx="184" cy="826" r="3.4" fill="#ffbde2"/>
+<ellipse cx="238" cy="798" rx="9" ry="7" fill="url(#singapore-sph-purple)"/>
+<ellipse cx="230" cy="792" rx="6" ry="5" fill="#e8c6f5"/>
+<ellipse cx="246" cy="792" rx="6" ry="5" fill="#dcb2f5"/>
+<circle cx="238" cy="800" r="3" fill="#ffcf6a"/>
+<g data-obj="orchid">
+<path d="M163,818 Q157,790 155,772" fill="none" stroke="#4a8f60" stroke-width="4" stroke-linecap="round"/>
+<path d="M163,804 Q148,802 137,810" fill="none" stroke="#2d6142" stroke-width="4" stroke-linecap="round"/>
+<path d="M162,792 Q177,788 187,794" fill="none" stroke="#2d6142" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="155" cy="770" rx="13" ry="11" fill="url(#singapore-sph-purple)"/>
+<ellipse cx="153" cy="768" rx="8" ry="6.4" fill="#c79bff"/>
+<ellipse cx="148" cy="762" rx="6.5" ry="5.5" fill="#e2c4ff"/>
+<ellipse cx="162" cy="762" rx="6.5" ry="5.5" fill="#d5b0ff"/>
+<ellipse cx="155" cy="756" rx="5" ry="6" fill="#f0dcff"/>
+<circle cx="155" cy="773" r="4" fill="#ffd9ef"/>
+<circle cx="155" cy="773" r="2" fill="#ffcf6a"/>
+<ellipse cx="180" cy="782" rx="11" ry="9" fill="url(#singapore-sph-purple)"/>
+<ellipse cx="178" cy="780" rx="6.6" ry="5" fill="#bb8bf5"/>
+<ellipse cx="175" cy="775" rx="5.5" ry="4.5" fill="#ddbaff"/>
+<ellipse cx="186" cy="775" rx="5.5" ry="4.5" fill="#cca2f5"/>
+<circle cx="180" cy="784" r="3.2" fill="#ffd9ef"/>
+<circle cx="180" cy="784" r="1.6" fill="#ffcf6a"/>
+<ellipse cx="136" cy="788" rx="10" ry="8" fill="url(#singapore-sph-purple)"/>
+<ellipse cx="134" cy="786" rx="6" ry="4.6" fill="#c79bff"/>
+<ellipse cx="131" cy="781" rx="5" ry="4" fill="#e2c4ff"/>
+<ellipse cx="141" cy="781" rx="5" ry="4" fill="#d5b0ff"/>
+<circle cx="136" cy="791" r="3" fill="#ffd9ef"/>
+<circle cx="136" cy="791" r="1.5" fill="#ffcf6a"/>
 </g>
-<ellipse cx="678" cy="790" rx="34" ry="8" fill="url(#singapore-shadow)"/>
-<g data-obj="potted-palm">
-<path d="M676,754 Q660,736 646,730" fill="none" stroke="#347049" stroke-width="6" stroke-linecap="round"/>
-<path d="M676,754 Q672,732 674,718" fill="none" stroke="#4a8f60" stroke-width="6" stroke-linecap="round"/>
-<path d="M676,754 Q692,734 706,726" fill="none" stroke="#2d6142" stroke-width="6" stroke-linecap="round"/>
-<path d="M676,754 Q694,748 706,752" fill="none" stroke="#245039" stroke-width="5" stroke-linecap="round"/>
-<path d="M656,760 L662,788 L690,788 L696,760 Z" fill="url(#singapore-wood)"/>
-<path d="M676,760 L676,788 L690,788 L696,760 Z" fill="#8a4d26" opacity="0.6"/>
-<rect x="652" y="753" width="48" height="9" rx="3" fill="#d98f5c"/>
-<rect x="652" y="753" width="48" height="3" rx="1.5" fill="#f0b284" opacity="0.8"/>
-</g>
-<ellipse cx="762" cy="822" rx="30" ry="7" fill="url(#singapore-shadow)"/>
-<g data-obj="bird-bath">
-<rect x="754" y="784" width="16" height="34" fill="url(#singapore-metal)"/>
-<ellipse cx="762" cy="818" rx="24" ry="7" fill="#6f7780"/>
-<ellipse cx="762" cy="782" rx="27" ry="9" fill="url(#singapore-metal)"/>
-<ellipse cx="762" cy="780" rx="22" ry="6.5" fill="#79b6c9"/>
-<ellipse cx="757" cy="778.5" rx="9" ry="3" fill="#d3eef6" opacity="0.85"/>
-<path d="M735,782 Q762,790 789,782" fill="none" stroke="#6f7780" stroke-width="2.4"/>
-</g>
-<ellipse cx="686" cy="844" rx="32" ry="8" fill="url(#singapore-shadow)"/>
-<g data-obj="watering-can">
-<path d="M666,800 L666,834 Q666,840 674,840 L698,840 Q706,840 706,834 L706,800 Z" fill="url(#singapore-green)"/>
-<path d="M692,800 L692,840 L698,840 Q706,840 706,834 L706,800 Z" fill="#1f6941" opacity="0.6"/>
-<rect x="662" y="793" width="48" height="9" rx="3" fill="#62c187"/>
-<rect x="662" y="793" width="48" height="3" rx="1.5" fill="#a2e8b6" opacity="0.85"/>
-<path d="M706,806 L720,820 L717,830" fill="none" stroke="#43a06b" stroke-width="5" stroke-linecap="round"/>
-<ellipse cx="718" cy="833" rx="6" ry="4" fill="#2f7a4e"/>
-<path d="M672,793 Q680,778 694,786" fill="none" stroke="#62c187" stroke-width="4.5" stroke-linecap="round"/>
-</g>
+<ellipse cx="232" cy="806" rx="14" ry="4" fill="#0e2b1e" opacity="0.3"/>
 <g data-obj="butterfly">
-<path d="M250,756 Q232,736 236,748 Q226,742 232,758 Q238,768 250,760 Z" fill="url(#singapore-canopy-a)"/>
-<path d="M250,756 Q268,736 264,748 Q274,742 268,758 Q262,768 250,760 Z" fill="url(#singapore-pink)"/>
-<ellipse cx="250" cy="756" rx="3" ry="10" fill="#3f3155"/>
-<circle cx="240" cy="750" r="2.6" fill="#ffe0f4"/>
-<circle cx="261" cy="750" r="2.6" fill="#ffe0f4"/>
-<path d="M248,747 Q244,738 240,736" fill="none" stroke="#3f3155" stroke-width="1.4"/>
-<path d="M252,747 Q256,738 260,736" fill="none" stroke="#3f3155" stroke-width="1.4"/>
+<path d="M230,788 Q212,768 216,780 Q206,774 212,790 Q218,800 230,792 Z" fill="url(#singapore-canopy-a)"/>
+<path d="M230,788 Q248,768 244,780 Q254,774 248,790 Q242,800 230,792 Z" fill="url(#singapore-pink)"/>
+<ellipse cx="230" cy="788" rx="3" ry="10" fill="#3f3155"/>
+<circle cx="220" cy="782" r="2.6" fill="#ffe0f4"/>
+<circle cx="241" cy="782" r="2.6" fill="#ffe0f4"/>
+<path d="M228,779 Q224,770 220,768" fill="none" stroke="#3f3155" stroke-width="1.4"/>
+<path d="M232,779 Q236,770 240,768" fill="none" stroke="#3f3155" stroke-width="1.4"/>
 </g>
-<ellipse cx="474" cy="884" rx="42" ry="10" fill="url(#singapore-shadow)"/>
+
+<ellipse cx="704" cy="798" rx="94" ry="28" fill="#173d29"/>
+<ellipse cx="702" cy="792" rx="88" ry="23" fill="url(#singapore-bush-d)"/>
+<path d="M614,820 Q704,806 792,818 L792,832 Q704,820 614,834 Z" fill="#6d6552"/>
+<path d="M614,820 Q704,806 792,818 L792,824 Q704,812 614,826 Z" fill="#a89a7c"/>
+<ellipse cx="656" cy="774" rx="30" ry="7" fill="url(#singapore-shadow)"/>
+<ellipse cx="656" cy="774" rx="15" ry="3.4" fill="#0e1f17" opacity="0.5"/>
+<g data-obj="bird-house">
+<rect x="652" y="738" width="8" height="34" fill="url(#singapore-wood)"/>
+<rect x="636" y="718" width="40" height="26" rx="2" fill="url(#singapore-wood)"/>
+<path d="M632,718 L656,700 L680,718 Z" fill="#8a5a33"/>
+<path d="M656,700 L632,718 L644,718 Z" fill="#c08a4e" opacity="0.85"/>
+<circle cx="656" cy="728" r="7" fill="#3f2a18"/>
+<circle cx="654" cy="726" r="3" fill="#5e3f20" opacity="0.7"/>
+<rect x="653" y="734" width="6" height="11" rx="2" fill="#7d5029"/>
+<rect x="636" y="742" width="40" height="4" rx="2" fill="#c08a4e"/>
+</g>
+<ellipse cx="733" cy="830" rx="34" ry="8" fill="url(#singapore-shadow)"/>
+<ellipse cx="733" cy="830" rx="18" ry="4" fill="#0e1f17" opacity="0.5"/>
+<g data-obj="bird-bath">
+<rect x="725" y="789" width="16" height="34" fill="url(#singapore-metal)"/>
+<ellipse cx="733" cy="823" rx="24" ry="7" fill="#6f7780"/>
+<ellipse cx="733" cy="787" rx="27" ry="9" fill="url(#singapore-metal)"/>
+<ellipse cx="733" cy="785" rx="22" ry="6.5" fill="#79b6c9"/>
+<ellipse cx="728" cy="783.5" rx="9" ry="3" fill="#d3eef6" opacity="0.85"/>
+<path d="M706,787 Q733,795 760,787" fill="none" stroke="#6f7780" stroke-width="2.4"/>
+</g>
+
+<ellipse cx="310" cy="866" rx="46" ry="14" fill="url(#singapore-glowy)" opacity="0.4"/>
+<ellipse cx="367" cy="872" rx="44" ry="13" fill="url(#singapore-glowy)" opacity="0.36"/>
+<ellipse cx="396" cy="878" rx="46" ry="14" fill="url(#singapore-glowp)" opacity="0.38"/>
+<ellipse cx="454" cy="882" rx="52" ry="16" fill="url(#singapore-glowp)" opacity="0.42"/>
+<ellipse cx="483" cy="878" rx="46" ry="14" fill="url(#singapore-glowp)" opacity="0.36"/>
+<ellipse cx="511" cy="874" rx="44" ry="13" fill="url(#singapore-glowp)" opacity="0.34"/>
+<ellipse cx="540" cy="866" rx="42" ry="13" fill="url(#singapore-glowy)" opacity="0.34"/>
+<ellipse cx="281" cy="872" rx="58" ry="17" fill="url(#singapore-glowy)" opacity="0.42"/>
+<ellipse cx="121" cy="886" rx="54" ry="16" fill="url(#singapore-glowy)" opacity="0.36"/>
+<ellipse cx="569" cy="868" rx="52" ry="15" fill="url(#singapore-glowy)" opacity="0.36"/>
+
+<ellipse cx="474" cy="884" rx="46" ry="11" fill="url(#singapore-shadow)"/>
+<ellipse cx="472" cy="884" rx="26" ry="5" fill="#3a3320" opacity="0.5"/>
 <g data-obj="wheelbarrow">
 <path d="M444,838 L496,834 L490,862 L454,864 Z" fill="url(#singapore-red)"/>
 <path d="M444,838 L496,834 L495,841 L445,845 Z" fill="#ffb7a6" opacity="0.6"/>
@@ -757,66 +863,24 @@ window.SCENES.push({
 <circle cx="466" cy="874" r="10" fill="#3b2f52"/>
 <circle cx="465" cy="873" r="4" fill="#8a7ba8"/>
 </g>
-
-<ellipse cx="158" cy="848" rx="86" ry="28" fill="#173d29"/>
-<ellipse cx="156" cy="840" rx="80" ry="23" fill="url(#singapore-bush)"/>
-<path d="M112,838 Q108,812 100,796" fill="none" stroke="#4a8f60" stroke-width="6" stroke-linecap="round"/>
-<path d="M208,840 Q214,816 224,802" fill="none" stroke="#347049" stroke-width="6" stroke-linecap="round"/>
-<circle cx="96" cy="822" r="9" fill="url(#singapore-canopy-a)"/>
-<circle cx="94" cy="820" r="4" fill="#ffe0f4"/>
-<circle cx="86" cy="830" r="7" fill="#e87ab8"/>
-<circle cx="216" cy="830" r="9" fill="url(#singapore-sph-purple)"/>
-<circle cx="214" cy="828" r="4" fill="#e8c6f5"/>
-<circle cx="226" cy="840" r="7" fill="#9b5de5"/>
-<circle cx="112" cy="866" r="8" fill="url(#singapore-sph-purple)"/>
-<circle cx="110" cy="864" r="3.4" fill="#d9b4ff"/>
-<circle cx="188" cy="864" r="8" fill="url(#singapore-pink)"/>
-<circle cx="186" cy="862" r="3.4" fill="#ffbde2"/>
-<ellipse cx="248" cy="800" rx="9" ry="7" fill="url(#singapore-sph-purple)"/>
-<ellipse cx="240" cy="794" rx="6" ry="5" fill="#e8c6f5"/>
-<ellipse cx="256" cy="794" rx="6" ry="5" fill="#dcb2f5"/>
-<circle cx="248" cy="802" r="3" fill="#ffcf6a"/>
-
-<g data-obj="orchid">
-<path d="M163,842 Q157,814 155,796" fill="none" stroke="#4a8f60" stroke-width="4" stroke-linecap="round"/>
-<path d="M163,828 Q148,826 137,834" fill="none" stroke="#2d6142" stroke-width="4" stroke-linecap="round"/>
-<path d="M162,816 Q177,812 187,818" fill="none" stroke="#2d6142" stroke-width="4" stroke-linecap="round"/>
-<ellipse cx="155" cy="794" rx="13" ry="11" fill="url(#singapore-sph-purple)"/>
-<ellipse cx="153" cy="792" rx="8" ry="6.4" fill="#c79bff"/>
-<ellipse cx="148" cy="786" rx="6.5" ry="5.5" fill="#e2c4ff"/>
-<ellipse cx="162" cy="786" rx="6.5" ry="5.5" fill="#d5b0ff"/>
-<ellipse cx="155" cy="780" rx="5" ry="6" fill="#f0dcff"/>
-<circle cx="155" cy="797" r="4" fill="#ffd9ef"/>
-<circle cx="155" cy="797" r="2" fill="#ffcf6a"/>
-<ellipse cx="180" cy="806" rx="11" ry="9" fill="url(#singapore-sph-purple)"/>
-<ellipse cx="178" cy="804" rx="6.6" ry="5" fill="#bb8bf5"/>
-<ellipse cx="175" cy="799" rx="5.5" ry="4.5" fill="#ddbaff"/>
-<ellipse cx="186" cy="799" rx="5.5" ry="4.5" fill="#cca2f5"/>
-<circle cx="180" cy="808" r="3.2" fill="#ffd9ef"/>
-<circle cx="180" cy="808" r="1.6" fill="#ffcf6a"/>
-<ellipse cx="136" cy="812" rx="10" ry="8" fill="url(#singapore-sph-purple)"/>
-<ellipse cx="134" cy="810" rx="6" ry="4.6" fill="#c79bff"/>
-<ellipse cx="131" cy="805" rx="5" ry="4" fill="#e2c4ff"/>
-<ellipse cx="141" cy="805" rx="5" ry="4" fill="#d5b0ff"/>
-<circle cx="136" cy="815" r="3" fill="#ffd9ef"/>
-<circle cx="136" cy="815" r="1.5" fill="#ffcf6a"/>
+<ellipse cx="548" cy="884" rx="38" ry="9" fill="url(#singapore-shadow)"/>
+<ellipse cx="546" cy="884" rx="21" ry="4.4" fill="#3a3320" opacity="0.5"/>
+<g data-obj="watering-can">
+<path d="M524,844 L524,878 Q524,884 532,884 L556,884 Q564,884 564,878 L564,844 Z" fill="url(#singapore-green)"/>
+<path d="M550,844 L550,884 L556,884 Q564,884 564,878 L564,844 Z" fill="#1f6941" opacity="0.6"/>
+<rect x="520" y="837" width="48" height="9" rx="3" fill="#62c187"/>
+<rect x="520" y="837" width="48" height="3" rx="1.5" fill="#a2e8b6" opacity="0.85"/>
+<path d="M564,850 L578,864 L575,874" fill="none" stroke="#43a06b" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="576" cy="877" rx="6" ry="4" fill="#2f7a4e"/>
+<path d="M530,837 Q538,822 552,830" fill="none" stroke="#62c187" stroke-width="4.5" stroke-linecap="round"/>
 </g>
-<path d="M126,846 Q140,830 158,824" fill="none" stroke="#2d6142" stroke-width="5" stroke-linecap="round"/>
-<ellipse cx="130" cy="832" rx="9" ry="4.5" fill="#347049" transform="rotate(-28 130 832)"/>
-<path d="M188,844 Q182,828 190,814" fill="none" stroke="#2d6142" stroke-width="4" stroke-linecap="round"/>
+<path d="M596,882 L590,846" stroke="#8a5a33" stroke-width="5" stroke-linecap="round"/>
+<path d="M586,846 L596,840 L600,850 Z" fill="#98a3ac"/>
 
-<ellipse cx="102" cy="902" rx="20" ry="6" fill="url(#singapore-shadow)"/>
-<g data-obj="paper-umbrella">
-<rect x="94" y="830" width="5" height="14" rx="2" fill="#8a5a33"/>
-<path d="M94,848 L102,848 L98,836 Z" fill="#e8756c"/>
-<path d="M92,846 L104,846 L110,890 L98,892 Z" fill="url(#singapore-red)"/>
-<path d="M101,846 L110,890 L104,891 L96,846 Z" fill="#7d2a24" opacity="0.75"/>
-<path d="M92,846 L95,846 L100,891 L98,892 Z" fill="#ffb7a6" opacity="0.45"/>
-<path d="M95,860 L107,859" stroke="#f9ecd6" stroke-width="2" opacity="0.75"/>
-<path d="M97,876 L109,875" stroke="#f9ecd6" stroke-width="2" opacity="0.75"/>
-<path d="M99,890 L99,900" stroke="#8a5a33" stroke-width="5" stroke-linecap="round"/>
-</g>
-
+<rect x="118" y="760" width="6" height="96" fill="#3b2c4f"/>
+<circle cx="121" cy="758" r="24" fill="url(#singapore-glowy)"/>
+<circle cx="121" cy="758" r="7" fill="#ffe4b0"/>
+<ellipse cx="121" cy="748" rx="17" ry="5" fill="#3b2c4f"/>
 <rect x="278" y="746" width="7" height="106" fill="#3b2c4f"/>
 <rect x="278" y="746" width="2.4" height="106" fill="#6b5490" opacity="0.8"/>
 <g data-obj="garden-lamp">
@@ -828,16 +892,11 @@ window.SCENES.push({
 <rect x="278" y="718" width="7" height="7" fill="#3b2c4f"/>
 <circle cx="281.5" cy="716" r="3.4" fill="#6b5490"/>
 </g>
-<rect x="118" y="760" width="6" height="96" fill="#3b2c4f"/>
-<circle cx="121" cy="758" r="24" fill="url(#singapore-glowy)"/>
-<circle cx="121" cy="758" r="7" fill="#ffe4b0"/>
-<ellipse cx="121" cy="748" rx="17" ry="5" fill="#3b2c4f"/>
 <rect x="566" y="756" width="7" height="106" fill="#3b2c4f"/>
 <circle cx="569" cy="748" r="24" fill="url(#singapore-glowy)"/>
 <circle cx="569" cy="748" r="10" fill="#fff3da" opacity="0.95"/>
 <circle cx="566" cy="745" r="4" fill="#fffaf0"/>
 <rect x="562" y="758" width="14" height="6" rx="2" fill="#3b2c4f"/>
-
 <path d="M281,752 Q425,822 569,762" fill="none" stroke="#463656" stroke-width="2.4"/>
 <path d="M121,758 Q200,798 281,752" fill="none" stroke="#463656" stroke-width="2"/>
 <rect x="308" y="765" width="4" height="6" fill="#463656"/>
@@ -867,7 +926,7 @@ window.SCENES.push({
 <circle cx="540" cy="789" r="16" fill="url(#singapore-glowy)"/>
 <path d="M533,779 Q533,798 540,800 Q547,798 547,779 Z" fill="url(#singapore-lantern)"/>
 <rect x="534" y="776" width="12" height="5" rx="2" fill="#cbb999"/>
-
+<rect x="452" y="783" width="4" height="7" fill="#463656"/>
 <circle cx="454" cy="826" r="30" fill="url(#singapore-glowp)"/>
 <g data-obj="lightstick">
 <rect x="447" y="789" width="14" height="23" rx="5" fill="url(#singapore-cream)"/>
@@ -878,34 +937,6 @@ window.SCENES.push({
 <ellipse cx="453" cy="825" rx="6" ry="8" fill="#f6e8ff" opacity="0.95"/>
 <ellipse cx="451" cy="820" rx="2.6" ry="3.6" fill="#ffffff" opacity="0.9"/>
 </g>
-<path d="M448,786 Q434,806 441,828" fill="none" stroke="#2d6142" stroke-width="3" stroke-linecap="round"/>
-<ellipse cx="438" cy="800" rx="6" ry="3" fill="#347049" transform="rotate(-52 438 800)"/>
-<ellipse cx="444" cy="832" rx="6.5" ry="3.2" fill="#3f8256" transform="rotate(28 444 832)"/>
-<ellipse cx="462" cy="843" rx="7" ry="3.4" fill="#2d6142" transform="rotate(18 462 843)"/>
-
-<circle cx="120" cy="892" r="22" fill="url(#singapore-glowp)"/>
-<circle cx="120" cy="892" r="6" fill="#e0c2ff"/>
-<rect x="118" y="894" width="4" height="24" fill="#463656"/>
-<circle cx="628" cy="812" r="22" fill="url(#singapore-glowp)"/>
-<circle cx="628" cy="812" r="6" fill="#e0c2ff"/>
-<rect x="626" y="814" width="4" height="22" fill="#463656"/>
-<circle cx="716" cy="806" r="20" fill="url(#singapore-glowt)"/>
-<circle cx="716" cy="806" r="5" fill="#c4fbf4"/>
-<path d="M0,690 Q200,724 400,700 Q600,676 800,706" fill="none" stroke="#463656" stroke-width="2"/>
-<circle cx="48" cy="702" r="12" fill="url(#singapore-glowy)"/>
-<circle cx="48" cy="702" r="4" fill="#ffd9a0"/>
-<circle cx="176" cy="716" r="11" fill="url(#singapore-glowt)"/>
-<circle cx="176" cy="716" r="3.5" fill="#8ff2ea"/>
-<circle cx="304" cy="710" r="11" fill="url(#singapore-glowm)"/>
-<circle cx="304" cy="710" r="3.5" fill="#ff9ad8"/>
-<circle cx="432" cy="696" r="12" fill="url(#singapore-glowy)"/>
-<circle cx="432" cy="696" r="4" fill="#ffd9a0"/>
-<circle cx="560" cy="682" r="11" fill="url(#singapore-glowt)"/>
-<circle cx="560" cy="682" r="3.5" fill="#8ff2ea"/>
-<circle cx="688" cy="690" r="11" fill="url(#singapore-glowm)"/>
-<circle cx="688" cy="690" r="3.5" fill="#ff9ad8"/>
-<circle cx="784" cy="704" r="11" fill="url(#singapore-glowy)"/>
-<circle cx="784" cy="704" r="3.5" fill="#ffd9a0"/>
 <ellipse cx="400" cy="962" rx="384" ry="54" fill="url(#singapore-shadow)"/>
 
 <rect x="576" y="890" width="224" height="310" fill="#3f2c1f"/>
@@ -924,85 +955,70 @@ window.SCENES.push({
 <path d="M624,908 L638,924 L652,904 Z" fill="#ffcf6a"/>
 <path d="M700,902 L714,918 L728,898 Z" fill="#e0559e"/>
 <path d="M764,897 L778,913 L792,893 Z" fill="#2ec7c0"/>
-<rect x="606" y="912" width="3" height="22" fill="#5e3f20"/>
-<circle cx="607" cy="940" r="8" fill="none" stroke="#ffcf6a" stroke-width="3"/>
-<path d="M601,940 L613,940" stroke="#ffcf6a" stroke-width="2"/>
-<path d="M607,932 L607,948" stroke="#ffcf6a" stroke-width="2"/>
-<path d="M601,934 L613,946" stroke="#ffcf6a" stroke-width="2"/>
-<rect x="662" y="908" width="3" height="18" fill="#5e3f20"/>
-<ellipse cx="660" cy="938" rx="16" ry="7" fill="#3b2c4f" opacity="0.5"/>
-<rect x="758" y="906" width="3" height="24" fill="#5e3f20"/>
+<rect x="586" y="914" width="204" height="5" rx="2.5" fill="url(#singapore-wood)"/>
+<rect x="586" y="914" width="204" height="1.6" rx="0.8" fill="#e8b478" opacity="0.8"/>
+<path d="M674,919 L674,930" stroke="#5e3f20" stroke-width="2"/>
+<path d="M769,919 L769,930" stroke="#5e3f20" stroke-width="2"/>
+<g data-obj="straw-hat">
+<ellipse cx="674" cy="940" rx="34" ry="12" fill="#dbb87e"/>
+<ellipse cx="674" cy="938" rx="32" ry="10" fill="#f0d9a8"/>
+<ellipse cx="674" cy="936" rx="18" ry="9" fill="#f6e6c2"/>
+<ellipse cx="669" cy="933" rx="9" ry="4" fill="#fff6e2" opacity="0.7"/>
+<path d="M656,935 Q674,925 692,935" fill="none" stroke="#c9576f" stroke-width="3.4"/>
+</g>
 <g data-obj="tote-bag">
-<rect x="742" y="928" width="34" height="30" rx="3" fill="url(#singapore-teal)"/>
-<rect x="742" y="928" width="34" height="4" rx="2" fill="#b8fbf5" opacity="0.7"/>
-<path d="M749,928 Q759,913 769,928" fill="none" stroke="#17877f" stroke-width="3.4"/>
-<rect x="748" y="938" width="22" height="6" rx="2" fill="#f9ecd6" opacity="0.9"/>
+<rect x="752" y="928" width="34" height="30" rx="3" fill="url(#singapore-teal)"/>
+<rect x="752" y="928" width="34" height="4" rx="2" fill="#b8fbf5" opacity="0.7"/>
+<path d="M759,928 Q769,913 779,928" fill="none" stroke="#17877f" stroke-width="3.4"/>
+<rect x="758" y="938" width="22" height="6" rx="2" fill="#f9ecd6" opacity="0.9"/>
 </g>
 
 <rect x="572" y="994" width="232" height="34" fill="url(#singapore-wood-v)"/>
 <rect x="572" y="994" width="232" height="5" fill="#e8b478" opacity="0.8"/>
 <rect x="572" y="1022" width="232" height="6" fill="#8a5a2c" opacity="0.7"/>
-<ellipse cx="672" cy="990" rx="26" ry="6" fill="url(#singapore-shadow-w)"/>
-<rect x="654" y="988" width="42" height="6" rx="2" fill="#a4c6d4"/>
-<path d="M662,988 Q658,970 668,964 L684,964 Q692,972 688,988 Z" fill="url(#singapore-sph-cream)"/>
-<path d="M680,988 Q688,972 684,964 Q692,972 688,988 Z" fill="#bdb09a"/>
-<path d="M683,985 Q697,980 698,966 Q698,959 693,956 Q696,964 693,971 Q689,979 680,978 Z" fill="url(#singapore-sph-cream)"/>
-<path d="M692,957 L703,942 Q705,950 704,958 L700,954 L696,963 Z" fill="#ded8cc"/>
-<ellipse cx="670" cy="958" rx="10" ry="9" fill="url(#singapore-sph-cream)"/>
-<circle cx="666" cy="956" r="1.8" fill="#3a2c60"/>
-<path d="M676,951 Q680,958 676,965" fill="none" stroke="#ded8cc" stroke-width="1.6"/>
-<path d="M663,967 Q669,970 675,967" fill="none" stroke="#ded8cc" stroke-width="1.6"/>
-<ellipse cx="734" cy="992" rx="32" ry="7" fill="url(#singapore-shadow-w)"/>
+<ellipse cx="618" cy="992" rx="28" ry="6" fill="url(#singapore-shadow-w)"/>
+<ellipse cx="618" cy="992" rx="15" ry="3" fill="#3f2411" opacity="0.5"/>
+<rect x="596" y="988" width="44" height="6" rx="2" fill="#a4c6d4"/>
+<path d="M604,988 Q600,970 610,964 L626,964 Q634,972 630,988 Z" fill="url(#singapore-sph-cream)"/>
+<path d="M622,988 Q630,972 626,964 Q634,972 630,988 Z" fill="#bdb09a"/>
+<path d="M625,985 Q639,980 640,966 Q640,959 635,956 Q638,964 635,971 Q631,979 622,978 Z" fill="url(#singapore-sph-cream)"/>
+<path d="M634,957 L645,942 Q647,950 646,958 L642,954 L638,963 Z" fill="#ded8cc"/>
+<ellipse cx="612" cy="958" rx="10" ry="9" fill="url(#singapore-sph-cream)"/>
+<circle cx="608" cy="956" r="1.8" fill="#3a2c60"/>
+<path d="M618,951 Q622,958 618,965" fill="none" stroke="#ded8cc" stroke-width="1.6"/>
+<path d="M605,967 Q611,970 617,967" fill="none" stroke="#ded8cc" stroke-width="1.6"/>
+<ellipse cx="710.0" cy="992" rx="34" ry="7" fill="url(#singapore-shadow-w)"/>
+<ellipse cx="710.0" cy="992" rx="18" ry="3.4" fill="#3f2411" opacity="0.5"/>
 <g data-obj="merlion">
-<rect x="708" y="986" width="44" height="8" rx="2" fill="#a4c6d4"/>
-<rect x="708" y="986" width="44" height="3" rx="1.5" fill="#e2f2f7"/>
-<path d="M716,986 Q713,968 722,960 L740,960 Q748,970 745,986 Z" fill="url(#singapore-sph-cream)"/>
-<path d="M736,986 Q744,970 740,960 Q748,970 745,986 Z" fill="#b8ab94"/>
-<path d="M744,983 Q762,978 763,962 Q763,955 757,952 Q761,961 758,968 Q753,978 742,977 Z" fill="url(#singapore-sph-cream)"/>
-<path d="M744,983 Q760,978 761,963 Q761,956 757,952 Q760,961 757,968 Q752,977 743,976 Z" fill="#cfc4ab"/>
-<path d="M755,957 L770,939 Q772,948 771,957 L766,953 L760,962 Z" fill="#f4ede0"/>
-<path d="M766,953 L771,957 Q772,948 770,939 Q769,948 766,953 Z" fill="#c9bda4"/>
-<path d="M726,942 Q735,940 739,946 Q747,949 745,957 Q748,964 742,968 Q739,975 731,973 Q723,976 719,970 Q712,967 714,959 Q711,952 718,948 Q721,941 726,942 Z" fill="#e2dac6"/>
-<path d="M719,949 Q717,944 723,945 Q723,949 722,952 Z" fill="#f6f1e6"/>
-<path d="M737,949 Q739,944 733,945 Q733,949 734,952 Z" fill="#f6f1e6"/>
-<circle cx="730" cy="956" r="11" fill="url(#singapore-sph-cream)"/>
-<circle cx="726" cy="954" r="1.9" fill="#3a2c60"/>
-<circle cx="734" cy="953" r="1.9" fill="#3a2c60"/>
-<ellipse cx="730" cy="961" rx="5.5" ry="4" fill="#fffaf0"/>
-<path d="M728,959.5 Q730,962 732,959.5" fill="none" stroke="#8a5a33" stroke-width="1.6" stroke-linecap="round"/>
-<path d="M730,965 Q722,970 715,980 Q723,975 728,969 Z" fill="#8ff2ea" opacity="0.9"/>
-<circle cx="716" cy="981" r="2.8" fill="#8ff2ea" opacity="0.7"/>
+<rect x="684.0" y="986" width="44" height="8" rx="2" fill="#a4c6d4"/>
+<rect x="684.0" y="986" width="44" height="3" rx="1.5" fill="#e2f2f7"/>
+<path d="M692.0,986 Q689.0,968 698.0,960 L716.0,960 Q724.0,970 721.0,986 Z" fill="url(#singapore-sph-cream)"/>
+<path d="M712.0,986 Q720.0,970 716.0,960 Q724.0,970 721.0,986 Z" fill="#b8ab94"/>
+<path d="M720.0,983 Q738.0,978 739.0,962 Q739.0,955 733.0,952 Q737.0,961 734.0,968 Q729.0,978 718.0,977 Z" fill="url(#singapore-sph-cream)"/>
+<path d="M720.0,983 Q736.0,978 737.0,963 Q737.0,956 733.0,952 Q736.0,961 733.0,968 Q728.0,977 719.0,976 Z" fill="#cfc4ab"/>
+<path d="M731.0,957 L746.0,939 Q748.0,948 747.0,957 L742.0,953 L736.0,962 Z" fill="#f4ede0"/>
+<path d="M742.0,953 L747.0,957 Q748.0,948 746.0,939 Q745.0,948 742.0,953 Z" fill="#c9bda4"/>
+<path d="M702.0,942 Q711.0,940 715.0,946 Q723.0,949 721.0,957 Q724.0,964 718.0,968 Q715.0,975 707.0,973 Q699.0,976 695.0,970 Q688.0,967 690.0,959 Q687.0,952 694.0,948 Q697.0,941 702.0,942 Z" fill="#e2dac6"/>
+<path d="M695.0,949 Q693.0,944 699.0,945 Q699.0,949 698.0,952 Z" fill="#f6f1e6"/>
+<path d="M713.0,949 Q715.0,944 709.0,945 Q709.0,949 710.0,952 Z" fill="#f6f1e6"/>
+<circle cx="706.0" cy="956" r="11" fill="url(#singapore-sph-cream)"/>
+<circle cx="702.0" cy="954" r="1.9" fill="#3a2c60"/>
+<circle cx="710.0" cy="953" r="1.9" fill="#3a2c60"/>
+<ellipse cx="706.0" cy="961" rx="5.5" ry="4" fill="#fffaf0"/>
+<path d="M704.0,959.5 Q706.0,962 708.0,959.5" fill="none" stroke="#8a5a33" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M706.0,965 Q698.0,970 691.0,980 Q699.0,975 704.0,969 Z" fill="#8ff2ea" opacity="0.9"/>
+<circle cx="692.0" cy="981" r="2.8" fill="#8ff2ea" opacity="0.7"/>
 </g>
-<rect x="698" y="974" width="28" height="20" rx="3" fill="url(#singapore-cream)"/>
-<rect x="702" y="984" width="20" height="3.5" rx="1.7" fill="#c9576f" opacity="0.7"/>
-<rect x="742" y="918" width="2.4" height="18" fill="#5e3f20"/>
-<rect x="734" y="936" width="18" height="14" rx="3" fill="url(#singapore-cream)"/>
-<path d="M737,941 L749,941" stroke="#c9576f" stroke-width="1.6"/>
+<rect x="638" y="974" width="28" height="20" rx="3" fill="url(#singapore-cream)"/>
+<rect x="642" y="984" width="20" height="3.5" rx="1.7" fill="#c9576f" opacity="0.7"/>
 
 <rect x="576" y="1028" width="224" height="172" fill="#7d5029"/>
+<rect x="580" y="1032" width="216" height="164" fill="#33220f"/>
+<rect x="580" y="1032" width="216" height="18" fill="#1c1209" opacity="0.75"/>
 <path d="M576,1028 L800,1028 L800,1042 L576,1042 Z" fill="#5e3a1e"/>
-<rect x="580" y="1108" width="216" height="8" rx="3" fill="url(#singapore-wood)"/>
-<rect x="580" y="1176" width="216" height="8" rx="3" fill="url(#singapore-wood)"/>
-<rect x="580" y="1116" width="216" height="4" fill="#4e2f16" opacity="0.5"/>
-<rect x="580" y="1184" width="216" height="4" fill="#4e2f16" opacity="0.5"/>
-<ellipse cx="628" cy="1106" rx="30" ry="6" fill="url(#singapore-shadow-w)"/>
-<g data-obj="ferris-toy">
-<rect x="606" y="1102" width="44" height="6" rx="3" fill="url(#singapore-wood)"/>
-<path d="M616,1104 L628,1058 L640,1104 Z" fill="#8a5a33"/>
-<path d="M616,1104 L628,1058 L630,1063 L621,1104 Z" fill="#c08a4e" opacity="0.7"/>
-<circle cx="628" cy="1070" r="24" fill="none" stroke="#e0559e" stroke-width="3.4"/>
-<circle cx="628" cy="1070" r="17" fill="none" stroke="#ffbde2" stroke-width="2.4"/>
-<path d="M628,1046 L628,1094" stroke="#ffcf6a" stroke-width="2.4"/>
-<path d="M604,1070 L652,1070" stroke="#ffcf6a" stroke-width="2.4"/>
-<path d="M611,1053 L645,1087" stroke="#ffcf6a" stroke-width="2.4"/>
-<path d="M645,1053 L611,1087" stroke="#ffcf6a" stroke-width="2.4"/>
-<circle cx="628" cy="1070" r="4.5" fill="#f9ecd6"/>
-<rect x="623" y="1040" width="10" height="8" rx="2.5" fill="#2ec7c0"/>
-<rect x="648" y="1066" width="10" height="8" rx="2.5" fill="#ffcf6a"/>
-<rect x="598" y="1066" width="10" height="8" rx="2.5" fill="#d4453c"/>
-<rect x="623" y="1092" width="10" height="8" rx="2.5" fill="#9b5de5"/>
-</g>
-<ellipse cx="605" cy="1108" rx="24" ry="5" fill="url(#singapore-shadow-w)"/>
+<rect x="580" y="1116" width="216" height="16" fill="#1c1209" opacity="0.55"/>
+<rect x="580" y="1184" width="216" height="14" fill="#1c1209" opacity="0.55"/>
+<ellipse cx="605" cy="1108" rx="24" ry="5" fill="#1c1209" opacity="0.55"/>
 <g data-obj="gift-box">
 <rect x="588" y="1074" width="34" height="34" rx="3" fill="url(#singapore-wood-v)"/>
 <rect x="588" y="1074" width="34" height="6" rx="3" fill="#d6a068"/>
@@ -1011,36 +1027,60 @@ window.SCENES.push({
 <rect x="588" y="1088" width="34" height="2" fill="#ffb7a6" opacity="0.6"/>
 <path d="M600,1074 Q605,1064 610,1074" fill="none" stroke="#c9576f" stroke-width="3"/>
 </g>
-<circle cx="692" cy="1074" r="21" fill="none" stroke="#c48b52" stroke-width="3.4"/>
-<path d="M692,1053 L692,1095" stroke="#e8c58f" stroke-width="2.4"/>
-<path d="M671,1074 L713,1074" stroke="#e8c58f" stroke-width="2.4"/>
-<path d="M677,1059 L707,1089" stroke="#e8c58f" stroke-width="2.4"/>
-<path d="M707,1059 L677,1089" stroke="#e8c58f" stroke-width="2.4"/>
-<circle cx="692" cy="1074" r="4" fill="#8a5a33"/>
-<rect x="689" y="1094" width="6" height="14" fill="#8a5a33"/>
-<circle cx="736" cy="1152" r="18" fill="none" stroke="#8a5a33" stroke-width="2.4"/>
-<circle cx="736" cy="1152" r="3" fill="#e8c58f"/>
-<path d="M736,1134 L736,1170" stroke="#c9c0b0" stroke-width="1.4"/>
-<path d="M718,1152 L754,1152" stroke="#c9c0b0" stroke-width="1.4"/>
-<path d="M723,1139 L749,1165" stroke="#c9c0b0" stroke-width="1.4"/>
-<path d="M749,1139 L723,1165" stroke="#c9c0b0" stroke-width="1.4"/>
-<ellipse cx="668" cy="1178" rx="26" ry="5" fill="url(#singapore-shadow-w)"/>
-<g data-obj="snow-globe">
-<circle cx="668" cy="1156" r="19" fill="url(#singapore-glass)"/>
-<circle cx="661" cy="1149" r="7" fill="#f2fbfe" opacity="0.85"/>
-<path d="M660,1165 L668,1146 L676,1165 Z" fill="#7fa9bc"/>
-<circle cx="657" cy="1146" r="2" fill="#fffaf0"/>
-<circle cx="679" cy="1152" r="2" fill="#fffaf0"/>
-<rect x="652" y="1167" width="32" height="10" rx="3" fill="url(#singapore-wood-v)"/>
-<rect x="652" y="1167" width="32" height="3" rx="1.5" fill="#c08a4e"/>
+<ellipse cx="664" cy="1108" rx="30" ry="6" fill="#1c1209" opacity="0.55"/>
+<g data-obj="ferris-toy">
+<rect x="642" y="1102" width="44" height="6" rx="3" fill="url(#singapore-wood)"/>
+<path d="M652,1104 L664,1058 L676,1104 Z" fill="#8a5a33"/>
+<path d="M652,1104 L664,1058 L666,1063 L657,1104 Z" fill="#c08a4e" opacity="0.7"/>
+<circle cx="664" cy="1070" r="24" fill="none" stroke="#e0559e" stroke-width="3.4"/>
+<circle cx="664" cy="1070" r="17" fill="none" stroke="#ffbde2" stroke-width="2.4"/>
+<path d="M664,1046 L664,1094" stroke="#ffcf6a" stroke-width="2.4"/>
+<path d="M640,1070 L688,1070" stroke="#ffcf6a" stroke-width="2.4"/>
+<path d="M647,1053 L681,1087" stroke="#ffcf6a" stroke-width="2.4"/>
+<path d="M681,1053 L647,1087" stroke="#ffcf6a" stroke-width="2.4"/>
+<circle cx="664" cy="1070" r="4.5" fill="#f9ecd6"/>
+<rect x="659" y="1040" width="10" height="8" rx="2.5" fill="#2ec7c0"/>
+<rect x="684" y="1066" width="10" height="8" rx="2.5" fill="#ffcf6a"/>
+<rect x="634" y="1066" width="10" height="8" rx="2.5" fill="#d4453c"/>
+<rect x="659" y="1092" width="10" height="8" rx="2.5" fill="#9b5de5"/>
 </g>
-<rect x="690" y="1168" width="32" height="8" rx="2" fill="#a4c6d4"/>
-<rect x="694" y="1156" width="24" height="13" rx="2" fill="#e2dac6"/>
-<path d="M700,1136 Q708,1133 713,1139 Q721,1142 719,1149 Q722,1155 716,1159 Q713,1165 706,1163 Q699,1166 695,1160 Q689,1157 691,1150 Q688,1144 694,1141 Q696,1134 700,1136 Z" fill="#e2dac6"/>
-<circle cx="706" cy="1148" r="10" fill="url(#singapore-sph-cream)"/>
-<circle cx="702" cy="1146" r="1.8" fill="#3a2c60"/>
-<circle cx="710" cy="1145" r="1.8" fill="#3a2c60"/>
-<ellipse cx="706" cy="1154" rx="5" ry="3.6" fill="#fffaf0"/>
+<ellipse cx="736" cy="1108" rx="24" ry="5" fill="#1c1209" opacity="0.55"/>
+<g data-obj="beach-ball">
+<circle cx="736" cy="1086" r="22" fill="url(#singapore-sph-cream)"/>
+<path d="M736,1064 A22,22 0 0 1 753,1095 Z" fill="#d4453c"/>
+<path d="M736,1064 A22,22 0 0 0 719,1095 Z" fill="#2ec7c0"/>
+<path d="M719,1095 A22,22 0 0 0 753,1095 Z" fill="#f2a24a"/>
+<ellipse cx="728" cy="1076" rx="6" ry="4.4" fill="#fffaf0" opacity="0.75"/>
+</g>
+<rect x="580" y="1108" width="216" height="8" rx="3" fill="url(#singapore-wood)"/>
+<rect x="580" y="1108" width="216" height="2.5" rx="1.2" fill="#e8b478" opacity="0.85"/>
+<ellipse cx="620" cy="1176" rx="24" ry="5" fill="#1c1209" opacity="0.55"/>
+<g data-obj="snow-globe">
+<circle cx="620" cy="1156" r="19" fill="url(#singapore-glass)"/>
+<circle cx="613" cy="1149" r="7" fill="#f2fbfe" opacity="0.85"/>
+<path d="M612,1165 L620,1146 L628,1165 Z" fill="#7fa9bc"/>
+<circle cx="609" cy="1146" r="2" fill="#fffaf0"/>
+<circle cx="631" cy="1152" r="2" fill="#fffaf0"/>
+<rect x="604" y="1167" width="32" height="10" rx="3" fill="url(#singapore-wood-v)"/>
+<rect x="604" y="1167" width="32" height="3" rx="1.5" fill="#c08a4e"/>
+</g>
+<ellipse cx="678" cy="1176" rx="22" ry="4.4" fill="#1c1209" opacity="0.55"/>
+<rect x="662" y="1168" width="32" height="8" rx="2" fill="#a4c6d4"/>
+<rect x="666" y="1156" width="24" height="13" rx="2" fill="#e2dac6"/>
+<path d="M672,1136 Q680,1133 685,1139 Q693,1142 691,1149 Q694,1155 688,1159 Q685,1165 678,1163 Q671,1166 667,1160 Q661,1157 663,1150 Q660,1144 666,1141 Q668,1134 672,1136 Z" fill="#e2dac6"/>
+<circle cx="678" cy="1148" r="10" fill="url(#singapore-sph-cream)"/>
+<circle cx="674" cy="1146" r="1.8" fill="#3a2c60"/>
+<circle cx="682" cy="1145" r="1.8" fill="#3a2c60"/>
+<ellipse cx="678" cy="1154" rx="5" ry="3.6" fill="#fffaf0"/>
+<circle cx="742" cy="1152" r="18" fill="none" stroke="#8a5a33" stroke-width="2.4"/>
+<circle cx="742" cy="1152" r="3" fill="#e8c58f"/>
+<path d="M742,1134 L742,1170" stroke="#c9c0b0" stroke-width="1.4"/>
+<path d="M724,1152 L760,1152" stroke="#c9c0b0" stroke-width="1.4"/>
+<path d="M729,1139 L755,1165" stroke="#c9c0b0" stroke-width="1.4"/>
+<path d="M755,1139 L729,1165" stroke="#c9c0b0" stroke-width="1.4"/>
+<rect x="737" y="1170" width="6" height="6" fill="#6b4226"/>
+<rect x="580" y="1176" width="216" height="8" rx="3" fill="url(#singapore-wood)"/>
+<rect x="580" y="1176" width="216" height="2.5" rx="1.2" fill="#e8b478" opacity="0.85"/>
 <rect x="588" y="1188" width="40" height="12" rx="3" fill="#6b4226"/>
 <rect x="640" y="1188" width="40" height="12" rx="3" fill="#8a5a33"/>
 <rect x="692" y="1188" width="40" height="12" rx="3" fill="#6b4226"/>
@@ -1052,33 +1092,44 @@ window.SCENES.push({
 <rect x="536" y="930" width="16" height="34" fill="#5e3f20"/>
 <rect x="330" y="930" width="14" height="30" fill="#5e3f20"/>
 <ellipse cx="176" cy="898" rx="30" ry="6" fill="url(#singapore-shadow-w)"/>
+<ellipse cx="176" cy="898" rx="17" ry="3" fill="#3f2411" opacity="0.5"/>
 <g data-obj="red-bowl">
 <ellipse cx="176" cy="886" rx="26" ry="12" fill="url(#singapore-red)"/>
 <ellipse cx="176" cy="882" rx="22" ry="9" fill="#e8756c"/>
 <ellipse cx="176" cy="881" rx="15" ry="6" fill="#ffb7a6"/>
 <path d="M154,880 Q176,872 198,880" fill="none" stroke="#8f2b32" stroke-width="2.4"/>
 </g>
-<ellipse cx="216" cy="900" rx="18" ry="5" fill="url(#singapore-shadow-w)"/>
+<path d="M206,896 L214,868" stroke="#e0c9a0" stroke-width="3.4" stroke-linecap="round"/>
+<path d="M212,896 L220,868" stroke="#e0c9a0" stroke-width="3.4" stroke-linecap="round"/>
+<circle cx="215" cy="866" r="4.5" fill="#c9576f"/>
+<circle cx="215" cy="856" r="4.5" fill="#e8c58f"/>
+<ellipse cx="248" cy="898" rx="20" ry="5" fill="url(#singapore-shadow-w)"/>
+<ellipse cx="248" cy="898" rx="11" ry="2.6" fill="#3f2411" opacity="0.5"/>
 <g data-obj="thermos">
-<rect x="206" y="860" width="18" height="38" rx="4" fill="url(#singapore-metal)"/>
-<rect x="203" y="853" width="23" height="9" rx="3" fill="url(#singapore-red)"/>
-<rect x="208" y="874" width="14" height="7" rx="2" fill="#d3eef6" opacity="0.8"/>
-<path d="M224,868 Q232,872 226,880" fill="none" stroke="#6a747d" stroke-width="3"/>
+<rect x="236" y="860" width="18" height="38" rx="4" fill="url(#singapore-metal)"/>
+<rect x="233" y="853" width="23" height="9" rx="3" fill="url(#singapore-red)"/>
+<rect x="238" y="874" width="14" height="7" rx="2" fill="#d3eef6" opacity="0.8"/>
+<path d="M254,868 Q262,872 256,880" fill="none" stroke="#6a747d" stroke-width="3"/>
 </g>
+<ellipse cx="280" cy="898" rx="20" ry="5" fill="url(#singapore-shadow-w)"/>
+<ellipse cx="280" cy="898" rx="11" ry="2.6" fill="#3f2411" opacity="0.5"/>
 <g data-obj="green-bottle">
-<rect x="228" y="856" width="20" height="42" rx="5" fill="url(#singapore-green)"/>
-<rect x="232" y="848" width="12" height="10" rx="3" fill="#ffcf6a"/>
-<rect x="230" y="872" width="16" height="10" rx="2" fill="#f9ecd6" opacity="0.9"/>
-<path d="M231,862 L231,892" stroke="#b6f0c4" stroke-width="2.4" opacity="0.6"/>
+<rect x="270" y="856" width="20" height="42" rx="5" fill="url(#singapore-green)"/>
+<rect x="274" y="848" width="12" height="10" rx="3" fill="#ffcf6a"/>
+<rect x="272" y="872" width="16" height="10" rx="2" fill="#f9ecd6" opacity="0.9"/>
+<path d="M273,862 L273,892" stroke="#b6f0c4" stroke-width="2.4" opacity="0.6"/>
 </g>
+<ellipse cx="313" cy="898" rx="20" ry="5" fill="url(#singapore-shadow-w)"/>
+<ellipse cx="313" cy="898" rx="11" ry="2.6" fill="#3f2411" opacity="0.5"/>
 <g data-obj="iced-glass">
-<path d="M286,862 L304,862 L301,898 L289,898 Z" fill="url(#singapore-glass)"/>
-<path d="M288,878 L302,878 L300,898 L290,898 Z" fill="#8a5a33" opacity="0.7"/>
-<path d="M288,864 L290,896" stroke="#fbfeff" stroke-width="2.4" opacity="0.7"/>
-<rect x="285" y="858" width="20" height="6" rx="2" fill="#e8f6fb"/>
-<path d="M298,860 L306,838" stroke="#2ec7c0" stroke-width="3" stroke-linecap="round"/>
+<path d="M304,862 L322,862 L319,898 L307,898 Z" fill="url(#singapore-glass)"/>
+<path d="M306,878 L320,878 L318,898 L308,898 Z" fill="#8a5a33" opacity="0.7"/>
+<path d="M306,864 L308,896" stroke="#fbfeff" stroke-width="2.4" opacity="0.7"/>
+<rect x="303" y="858" width="20" height="6" rx="2" fill="#e8f6fb"/>
+<path d="M316,860 L324,838" stroke="#2ec7c0" stroke-width="3" stroke-linecap="round"/>
 </g>
-<ellipse cx="455" cy="900" rx="26" ry="6" fill="url(#singapore-shadow-w)"/>
+<ellipse cx="455" cy="899" rx="26" ry="6" fill="url(#singapore-shadow-w)"/>
+<ellipse cx="455" cy="899" rx="14" ry="3" fill="#3f2411" opacity="0.5"/>
 <g data-obj="camera">
 <rect x="436" y="876" width="38" height="22" rx="4" fill="#3b2c4f"/>
 <rect x="436" y="876" width="38" height="5" rx="2.5" fill="#6b5490"/>
@@ -1088,12 +1139,11 @@ window.SCENES.push({
 <rect x="442" y="870" width="12" height="7" rx="2" fill="#3b2c4f"/>
 <circle cx="467" cy="882" r="2.6" fill="#ffcf6a"/>
 </g>
-<path d="M348,896 L356,868" stroke="#e0c9a0" stroke-width="3.4" stroke-linecap="round"/>
-<circle cx="357" cy="866" r="4.5" fill="#c9576f"/>
-<circle cx="357" cy="856" r="4.5" fill="#e8c58f"/>
-<path d="M366,896 L374,870" stroke="#e0c9a0" stroke-width="3.4" stroke-linecap="round"/>
-<rect x="368" y="864" width="12" height="10" rx="2" fill="#43a06b" transform="rotate(-16 374 869)"/>
+<rect x="484" y="880" width="34" height="18" rx="2" fill="#3b2c4f"/>
+<rect x="484" y="880" width="34" height="4" rx="2" fill="#6b5490"/>
+<rect x="513" y="882" width="5" height="14" fill="#f4e2c6"/>
 <ellipse cx="558" cy="960" rx="26" ry="7" fill="url(#singapore-shadow)"/>
+<ellipse cx="558" cy="960" rx="14" ry="3.4" fill="#0e1f17" opacity="0.5"/>
 <g data-obj="ukulele">
 <rect x="547" y="888" width="18" height="12" rx="3" fill="#5e3a1e"/>
 <rect x="550" y="896" width="12" height="22" rx="3" fill="url(#singapore-wood)"/>
@@ -1105,32 +1155,24 @@ window.SCENES.push({
 <path d="M560,914 L560,952" stroke="#f9ecd6" stroke-width="1.4"/>
 <rect x="548" y="954" width="16" height="5" rx="2" fill="#5e3f20"/>
 </g>
-<ellipse cx="500" cy="969" rx="22" ry="6" fill="url(#singapore-shadow)"/>
-<g data-obj="beach-ball">
-<circle cx="500" cy="944" r="22" fill="url(#singapore-sph-cream)"/>
-<path d="M500,922 A22,22 0 0 1 517,953 Z" fill="#d4453c"/>
-<path d="M500,922 A22,22 0 0 0 483,953 Z" fill="#2ec7c0"/>
-<path d="M483,953 A22,22 0 0 0 517,953 Z" fill="#f2a24a"/>
-<ellipse cx="492" cy="934" rx="6" ry="4.4" fill="#fffaf0" opacity="0.75"/>
-</g>
+
 <path d="M100,978 Q100,962 118,962 L566,962 Q584,962 584,978 L584,1166 Q584,1180 566,1180 L118,1180 Q100,1180 100,1166 Z" fill="url(#singapore-mat)"/>
 <rect x="112" y="1020" width="460" height="14" fill="#b389df" opacity="0.22"/>
 <rect x="112" y="1128" width="460" height="14" fill="#4e2b78" opacity="0.3"/>
 <rect x="396" y="968" width="14" height="206" fill="#b389df" opacity="0.16"/>
 <path d="M100,978 Q100,962 118,962 L566,962 Q584,962 584,978 L584,1166 Q584,1180 566,1180 L118,1180 Q100,1180 100,1166 Z" fill="none" stroke="#d5b0ff" stroke-width="3" opacity="0.55"/>
-
-<ellipse cx="98" cy="982" rx="34" ry="9" fill="url(#singapore-shadow)"/>
+<ellipse cx="106" cy="982" rx="36" ry="9" fill="url(#singapore-shadow)"/>
+<ellipse cx="106" cy="982" rx="20" ry="4.4" fill="#2b1848" opacity="0.55"/>
 <g data-obj="backpack">
-<path d="M74,932 Q74,918 96,918 Q118,918 118,932 L118,972 Q118,980 108,980 L84,980 Q74,980 74,972 Z" fill="url(#singapore-green)"/>
-<path d="M96,918 Q118,918 118,932 L118,972 Q118,980 108,980 L96,980 Z" fill="#175433" opacity="0.55"/>
-<path d="M78,944 L114,944 L114,958 L78,958 Z" fill="#4eb079"/>
-<rect x="88" y="948" width="16" height="6" rx="2" fill="#f9ecd6"/>
-<path d="M84,920 Q79,910 88,908" fill="none" stroke="#1f6941" stroke-width="4"/>
-<path d="M108,920 Q113,910 104,908" fill="none" stroke="#1f6941" stroke-width="4"/>
-<circle cx="96" cy="968" r="4" fill="#ffcf6a"/>
+<path d="M82,932 Q82,918 104,918 Q126,918 126,932 L126,972 Q126,980 116,980 L92,980 Q82,980 82,972 Z" fill="url(#singapore-green)"/>
+<path d="M104,918 Q126,918 126,932 L126,972 Q126,980 116,980 L104,980 Z" fill="#175433" opacity="0.55"/>
+<path d="M86,944 L122,944 L122,958 L86,958 Z" fill="#4eb079"/>
+<rect x="96" y="948" width="16" height="6" rx="2" fill="#f9ecd6"/>
+<path d="M92,920 Q87,910 96,908" fill="none" stroke="#1f6941" stroke-width="4"/>
+<path d="M116,920 Q121,910 112,908" fill="none" stroke="#1f6941" stroke-width="4"/>
+<circle cx="104" cy="968" r="4" fill="#ffcf6a"/>
 </g>
-
-<ellipse cx="176" cy="1010" rx="40" ry="8" fill="#3d2260" opacity="0.45"/>
+<ellipse cx="176" cy="1010" rx="42" ry="9" fill="#2b1848" opacity="0.5"/>
 <g data-obj="noodle-bowl">
 <ellipse cx="176" cy="1000" rx="36" ry="14" fill="#6b4226"/>
 <ellipse cx="176" cy="993" rx="34" ry="13" fill="url(#singapore-wood-v)"/>
@@ -1139,8 +1181,7 @@ window.SCENES.push({
 <path d="M159,989 Q176,984 193,989" fill="none" stroke="#f6dfae" stroke-width="3.4"/>
 </g>
 <path d="M194,978 L226,960" stroke="#e0c9a0" stroke-width="3.4" stroke-linecap="round"/>
-
-<ellipse cx="306" cy="1014" rx="48" ry="10" fill="#3d2260" opacity="0.42"/>
+<ellipse cx="306" cy="1015" rx="50" ry="10" fill="#2b1848" opacity="0.5"/>
 <ellipse cx="306" cy="1006" rx="46" ry="17" fill="#9c8f76"/>
 <ellipse cx="306" cy="1001" rx="44" ry="16" fill="url(#singapore-plate)"/>
 <path d="M278,1000 L282,978 L306,974 L309,996 Z" fill="#d99a52"/>
@@ -1149,8 +1190,7 @@ window.SCENES.push({
 <path d="M330,1004 L334,986 L352,983 L354,1001 Z" fill="#d99a52"/>
 <path d="M330,1004 L334,986 L352,983 L354,1001 Z" fill="none" stroke="#8a5a2a" stroke-width="2.4"/>
 <path d="M335,999 L338,989 L350,987 L351,997 Z" fill="#f0cb84"/>
-
-<ellipse cx="212" cy="1064" rx="48" ry="10" fill="#3d2260" opacity="0.42"/>
+<ellipse cx="212" cy="1066" rx="50" ry="10" fill="#2b1848" opacity="0.5"/>
 <ellipse cx="212" cy="1058" rx="46" ry="17" fill="#9c8f76"/>
 <ellipse cx="212" cy="1052" rx="44" ry="16" fill="url(#singapore-plate)"/>
 <g data-obj="kaya-toast">
@@ -1165,8 +1205,7 @@ window.SCENES.push({
 <path d="M216,1053 L219,1042 L236,1039.6 L237,1051 Z" fill="#f0cb84"/>
 <path d="M220,1047 L237,1045 L237.6,1049 L220.6,1051 Z" fill="#4e7d3a"/>
 </g>
-
-<ellipse cx="346" cy="1086" rx="54" ry="11" fill="#3d2260" opacity="0.42"/>
+<ellipse cx="346" cy="1088" rx="56" ry="11" fill="#2b1848" opacity="0.5"/>
 <ellipse cx="346" cy="1078" rx="52" ry="18" fill="#6b4226"/>
 <ellipse cx="346" cy="1072" rx="50" ry="17" fill="url(#singapore-wood-v)"/>
 <ellipse cx="346" cy="1071" rx="42" ry="12" fill="#d9a86a"/>
@@ -1176,8 +1215,54 @@ window.SCENES.push({
 <path d="M312,1076 L378,1062" stroke="#e0c9a0" stroke-width="3.6" stroke-linecap="round"/>
 <rect x="332" y="1070" width="13" height="11" rx="3" fill="#8a4a22" transform="rotate(-12 338 1075)"/>
 <rect x="350" y="1066" width="13" height="11" rx="3" fill="#a15c2b" transform="rotate(-12 356 1071)"/>
-
-<ellipse cx="470" cy="1136" rx="46" ry="10" fill="#3d2260" opacity="0.42"/>
+<ellipse cx="460" cy="1090" rx="38" ry="8" fill="#2b1848" opacity="0.45"/>
+<g data-obj="paper-fan">
+<path d="M460,1080 L430,1042 Q460,1024 490,1042 Z" fill="url(#singapore-cream)"/>
+<path d="M460,1080 L460,1031 Q476,1032 490,1042 Z" fill="#d8c69e"/>
+<path d="M460,1080 L441,1037" stroke="#c9576f" stroke-width="1.6"/>
+<path d="M460,1080 L460,1030" stroke="#c9576f" stroke-width="1.6"/>
+<path d="M460,1080 L479,1037" stroke="#c9576f" stroke-width="1.6"/>
+<path d="M442,1052 Q460,1044 478,1052" fill="none" stroke="#c9576f" stroke-width="2"/>
+<rect x="457" y="1078" width="6" height="12" rx="2" fill="#8a5a33"/>
+</g>
+<ellipse cx="528" cy="1094" rx="34" ry="8" fill="#2b1848" opacity="0.45"/>
+<g data-obj="polaroid">
+<rect x="504" y="1036" width="46" height="52" rx="2" fill="url(#singapore-cream)" transform="rotate(-8 527 1062)"/>
+<rect x="508" y="1040" width="38" height="32" fill="#4e3a6b" transform="rotate(-8 527 1062)"/>
+<circle cx="520" cy="1050" r="5" fill="#ffcf6a" transform="rotate(-8 527 1062)"/>
+<path d="M510,1070 L524,1054 L538,1070 Z" fill="#8a6cb0" transform="rotate(-8 527 1062)"/>
+<rect x="512" y="1076" width="24" height="4" rx="2" fill="#ded0b6" transform="rotate(-8 527 1062)"/>
+</g>
+<ellipse cx="150" cy="1148" rx="34" ry="8" fill="#2b1848" opacity="0.5"/>
+<g data-obj="durian">
+<circle cx="150" cy="1120" r="24" fill="url(#singapore-sph-durian)"/>
+<circle cx="142" cy="1112" r="9" fill="#9fbf66" opacity="0.5"/>
+<path d="M162,1100 L168,1094 L169,1102 Z" fill="#39501f"/>
+<path d="M171,1111 L180,1110 L173,1117 Z" fill="#39501f"/>
+<path d="M172,1125 L181,1128 L172,1132 Z" fill="#39501f"/>
+<path d="M166,1136 L173,1143 L164,1143 Z" fill="#39501f"/>
+<path d="M152,1142 L154,1152 L147,1146 Z" fill="#39501f"/>
+<path d="M138,1141 L136,1151 L131,1143 Z" fill="#3e5626"/>
+<path d="M128,1132 L120,1138 L122,1129 Z" fill="#3e5626"/>
+<path d="M126,1118 L117,1118 L125,1111 Z" fill="#4a6630"/>
+<path d="M131,1104 L126,1096 L137,1098 Z" fill="#4a6630"/>
+<path d="M142,1095 L140,1086 L149,1092 Z" fill="#4a6630"/>
+<path d="M166,1113 L175,1112 L168,1119 Z" fill="#39501f"/>
+<path d="M160,1130 L168,1135 L158,1136 Z" fill="#39501f"/>
+<path d="M135,1132 L131,1141 L126,1133 Z" fill="#3e5626"/>
+<path d="M148,1098 L152,1092" stroke="#3e5626" stroke-width="5" stroke-linecap="round"/>
+</g>
+<ellipse cx="272" cy="1148" rx="26" ry="6" fill="#2b1848" opacity="0.5"/>
+<g data-obj="boba-cup">
+<path d="M258,1142 Q252,1104 272,1098 Q292,1104 286,1142 Q272,1148 258,1142 Z" fill="url(#singapore-glass)"/>
+<path d="M262,1136 Q258,1108 272,1104 Q283,1108 281,1136 Q272,1140 262,1136 Z" fill="#8a5a33" opacity="0.75"/>
+<circle cx="267" cy="1132" r="3.4" fill="#31200f"/>
+<circle cx="276" cy="1134" r="3.4" fill="#31200f"/>
+<circle cx="271" cy="1125" r="3" fill="#31200f"/>
+<ellipse cx="272" cy="1099" rx="17" ry="5" fill="#a8ccd8"/>
+</g>
+<path d="M278,1100 L294,1062" stroke="#f0a0cf" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="470" cy="1138" rx="48" ry="10" fill="#2b1848" opacity="0.5"/>
 <ellipse cx="470" cy="1128" rx="44" ry="16" fill="#9c8f76"/>
 <ellipse cx="470" cy="1122" rx="42" ry="15" fill="url(#singapore-plate)"/>
 <g data-obj="satay-skewer">
@@ -1193,93 +1278,33 @@ window.SCENES.push({
 <path d="M482,1116 Q488,1113 494,1115" fill="none" stroke="#e8b96e" stroke-width="2.2" stroke-linecap="round"/>
 </g>
 
-<ellipse cx="272" cy="1148" rx="24" ry="6" fill="#3d2260" opacity="0.45"/>
-<g data-obj="boba-cup">
-<path d="M258,1142 Q252,1104 272,1098 Q292,1104 286,1142 Q272,1148 258,1142 Z" fill="url(#singapore-glass)"/>
-<path d="M262,1136 Q258,1108 272,1104 Q283,1108 281,1136 Q272,1140 262,1136 Z" fill="#8a5a33" opacity="0.75"/>
-<circle cx="267" cy="1132" r="3.4" fill="#31200f"/>
-<circle cx="276" cy="1134" r="3.4" fill="#31200f"/>
-<circle cx="271" cy="1125" r="3" fill="#31200f"/>
-<ellipse cx="272" cy="1099" rx="17" ry="5" fill="#a8ccd8"/>
-</g>
-<path d="M278,1100 L294,1062" stroke="#f0a0cf" stroke-width="4" stroke-linecap="round"/>
-
-<ellipse cx="450" cy="1086" rx="34" ry="8" fill="#3d2260" opacity="0.4"/>
-<g data-obj="paper-fan">
-<path d="M450,1080 L420,1042 Q450,1024 480,1042 Z" fill="url(#singapore-cream)"/>
-<path d="M450,1080 L450,1031 Q466,1032 480,1042 Z" fill="#d8c69e"/>
-<path d="M450,1080 L431,1037" stroke="#c9576f" stroke-width="1.6"/>
-<path d="M450,1080 L450,1030" stroke="#c9576f" stroke-width="1.6"/>
-<path d="M450,1080 L469,1037" stroke="#c9576f" stroke-width="1.6"/>
-<path d="M432,1052 Q450,1044 468,1052" fill="none" stroke="#c9576f" stroke-width="2"/>
-<rect x="447" y="1078" width="6" height="12" rx="2" fill="#8a5a33"/>
-</g>
-<ellipse cx="500" cy="1094" rx="32" ry="8" fill="#3d2260" opacity="0.4"/>
-<g data-obj="polaroid">
-<rect x="476" y="1036" width="46" height="52" rx="2" fill="url(#singapore-cream)" transform="rotate(-8 499 1062)"/>
-<rect x="480" y="1040" width="38" height="32" fill="#4e3a6b" transform="rotate(-8 499 1062)"/>
-<circle cx="492" cy="1050" r="5" fill="#ffcf6a" transform="rotate(-8 499 1062)"/>
-<path d="M482,1070 L496,1054 L510,1070 Z" fill="#8a6cb0" transform="rotate(-8 499 1062)"/>
-<rect x="484" y="1076" width="24" height="4" rx="2" fill="#ded0b6" transform="rotate(-8 499 1062)"/>
-</g>
-
-<ellipse cx="238" cy="1176" rx="38" ry="8" fill="#3d2260" opacity="0.45"/>
-<g data-obj="straw-hat">
-<ellipse cx="238" cy="1168" rx="34" ry="12" fill="#dbb87e"/>
-<ellipse cx="238" cy="1166" rx="32" ry="10" fill="#f0d9a8"/>
-<ellipse cx="238" cy="1164" rx="18" ry="9" fill="#f6e6c2"/>
-<ellipse cx="233" cy="1161" rx="9" ry="4" fill="#fff6e2" opacity="0.7"/>
-<path d="M220,1163 Q238,1153 256,1163" fill="none" stroke="#c9576f" stroke-width="3.4"/>
-</g>
-
 <path d="M42,1024 Q34,974 20,942" fill="none" stroke="#2d6142" stroke-width="10" stroke-linecap="round"/>
 <path d="M52,1026 Q52,974 46,930" fill="none" stroke="#4a8f60" stroke-width="10" stroke-linecap="round"/>
 <path d="M62,1026 Q72,976 86,942" fill="none" stroke="#245039" stroke-width="10" stroke-linecap="round"/>
-<path d="M70,1030 Q92,996 116,976" fill="none" stroke="#347049" stroke-width="9" stroke-linecap="round"/>
 <ellipse cx="58" cy="1042" rx="62" ry="20" fill="#173d29"/>
 <ellipse cx="56" cy="1034" rx="57" ry="17" fill="url(#singapore-bush)"/>
 <circle cx="24" cy="1028" r="7" fill="url(#singapore-canopy-a)"/>
 <circle cx="88" cy="1030" r="7" fill="#ffcf6a"/>
-<g data-obj="durian">
-<ellipse cx="70" cy="1106" rx="28" ry="7" fill="url(#singapore-shadow)"/>
-<circle cx="70" cy="1078" r="24" fill="url(#singapore-sph-durian)"/>
-<circle cx="62" cy="1070" r="9" fill="#9fbf66" opacity="0.5"/>
-<path d="M82,1058 L88,1052 L89,1060 Z" fill="#39501f"/>
-<path d="M91,1069 L100,1068 L93,1075 Z" fill="#39501f"/>
-<path d="M92,1083 L101,1086 L92,1090 Z" fill="#39501f"/>
-<path d="M86,1094 L93,1101 L84,1101 Z" fill="#39501f"/>
-<path d="M72,1100 L74,1110 L67,1104 Z" fill="#39501f"/>
-<path d="M58,1099 L56,1109 L51,1101 Z" fill="#3e5626"/>
-<path d="M48,1090 L40,1096 L42,1087 Z" fill="#3e5626"/>
-<path d="M46,1076 L37,1076 L45,1069 Z" fill="#4a6630"/>
-<path d="M51,1062 L46,1054 L57,1056 Z" fill="#4a6630"/>
-<path d="M62,1053 L60,1044 L69,1050 Z" fill="#4a6630"/>
-<path d="M86,1071 L95,1070 L88,1077 Z" fill="#39501f"/>
-<path d="M80,1088 L88,1093 L78,1094 Z" fill="#39501f"/>
-<path d="M55,1090 L51,1099 L46,1091 Z" fill="#3e5626"/>
-<path d="M68,1056 L72,1050" stroke="#3e5626" stroke-width="5" stroke-linecap="round"/>
-</g>
+<ellipse cx="66" cy="1152" rx="28" ry="7" fill="url(#singapore-shadow)"/>
+<circle cx="66" cy="1130" r="20" fill="url(#singapore-sph-durian)"/>
+<circle cx="59" cy="1123" r="7" fill="#9fbf66" opacity="0.5"/>
+<path d="M84,1116 L92,1112 L90,1121 Z" fill="#39501f"/>
+<path d="M86,1136 L95,1140 L85,1143 Z" fill="#39501f"/>
+<path d="M70,1149 L72,1158 L64,1152 Z" fill="#39501f"/>
+<path d="M48,1142 L42,1150 L41,1140 Z" fill="#3e5626"/>
+<path d="M44,1122 L35,1120 L44,1113 Z" fill="#4a6630"/>
+<path d="M60,1110 L58,1101 L67,1107 Z" fill="#4a6630"/>
+<ellipse cx="34" cy="1188" rx="24" ry="6" fill="url(#singapore-shadow)"/>
+<circle cx="34" cy="1172" r="17" fill="url(#singapore-sph-durian)"/>
+<circle cx="28" cy="1166" r="6" fill="#9fbf66" opacity="0.5"/>
+<path d="M48,1162 L55,1159 L54,1166 Z" fill="#39501f"/>
+<path d="M50,1180 L58,1184 L49,1186 Z" fill="#39501f"/>
+<path d="M30,1189 L31,1197 L24,1192 Z" fill="#3e5626"/>
+<path d="M16,1166 L8,1164 L16,1158 Z" fill="#4a6630"/>
+<path d="M34,1155 L32,1147 L40,1152 Z" fill="#4a6630"/>
 <path d="M40,1112 Q62,1096 86,1090" fill="none" stroke="#2d6142" stroke-width="7" stroke-linecap="round"/>
 <path d="M30,1096 Q48,1082 66,1078" fill="none" stroke="#347049" stroke-width="5" stroke-linecap="round"/>
-<ellipse cx="30" cy="1146" rx="24" ry="18" fill="url(#singapore-sph-durian)"/>
-<circle cx="14" cy="1136" r="3.4" fill="#39501f"/>
-<circle cx="24" cy="1132" r="3.4" fill="#39501f"/>
-<circle cx="36" cy="1134" r="3.4" fill="#39501f"/>
-<circle cx="46" cy="1142" r="3.4" fill="#39501f"/>
-<circle cx="42" cy="1154" r="3.4" fill="#39501f"/>
-<circle cx="30" cy="1160" r="3.4" fill="#39501f"/>
-<circle cx="16" cy="1156" r="3.4" fill="#39501f"/>
-<circle cx="28" cy="1146" r="3.4" fill="#39501f"/>
-<path d="M30,1128 L34,1120" stroke="#5e3f20" stroke-width="4" stroke-linecap="round"/>
-<circle cx="88" cy="1152" r="20" fill="url(#singapore-sph-durian)"/>
-<path d="M88,1132 L88,1120" stroke="#39501f" stroke-width="2"/>
-<path d="M102,1138 L112,1128" stroke="#39501f" stroke-width="2"/>
-<path d="M108,1152 L122,1152" stroke="#39501f" stroke-width="2"/>
-<path d="M102,1166 L112,1176" stroke="#39501f" stroke-width="2"/>
-<path d="M74,1166 L64,1176" stroke="#39501f" stroke-width="2"/>
-<path d="M68,1152 L54,1152" stroke="#39501f" stroke-width="2"/>
-<path d="M74,1138 L64,1128" stroke="#39501f" stroke-width="2"/>
-<ellipse cx="50" cy="1192" rx="90" ry="26" fill="url(#singapore-shadow)"/>
+<ellipse cx="50" cy="1194" rx="90" ry="26" fill="url(#singapore-shadow)"/>
 <path d="M118,1188 Q114,1164 106,1152" fill="none" stroke="#2d6142" stroke-width="7" stroke-linecap="round"/>
 <path d="M146,1192 Q152,1168 148,1150" fill="none" stroke="#4a8f60" stroke-width="7" stroke-linecap="round"/>
 <path d="M168,1194 Q180,1172 194,1162" fill="none" stroke="#245039" stroke-width="7" stroke-linecap="round"/>
